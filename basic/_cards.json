@@ -1,0 +1,2303 @@
+[
+  {
+    "id": "biz-015",
+    "slug": "test-15",
+    "name": "Brighton Bhojpur Technical Institute",
+    "name_np": "Nepali Brighton Bhojpur Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Bhojpur",
+    "province": "1",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "bhojpur",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=BB",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Brighton%20Bhojpur%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0015",
+      "notes": "Demo 6 Months subscription for Brighton Bhojpur Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-15T05:30:00.000Z",
+      "starts_at": "2026-03-15T05:30:00.000Z",
+      "expires_at": "2026-09-15T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-15T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-15T05:30:00.000Z",
+    "created_at": "2025-01-15T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-031",
+    "slug": "test-31",
+    "name": "Brighton Lalitpur Scholars School",
+    "name_np": "Nepali Brighton Lalitpur Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Lalitpur",
+    "province": "3",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "lalitpur",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=BL",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Brighton%20Lalitpur%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0031",
+      "notes": "Demo Annual subscription for Brighton Lalitpur Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-07T05:30:00.000Z",
+      "starts_at": "2026-03-07T05:30:00.000Z",
+      "expires_at": "2027-03-07T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-04T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-04T05:30:00.000Z",
+    "created_at": "2025-01-06T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-047",
+    "slug": "test-47",
+    "name": "Brighton Palpa Skills Training Center",
+    "name_np": "Nepali Brighton Palpa Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Palpa",
+    "province": "5",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "palpa",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=BP",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Brighton%20Palpa%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0047",
+      "notes": "Demo Yearly subscription for Brighton Palpa Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-23T05:30:00.000Z",
+      "starts_at": "2026-03-23T05:30:00.000Z",
+      "expires_at": "2027-03-23T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-20T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-20T05:30:00.000Z",
+    "created_at": "2025-01-22T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-021",
+    "slug": "test-21",
+    "name": "Crest Baitadi Technical Institute",
+    "name_np": "Nepali Crest Baitadi Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Baitadi",
+    "province": "7",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "baitadi",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=CB",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Crest%20Baitadi%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0021",
+      "notes": "Demo 6 Months subscription for Crest Baitadi Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-21T05:30:00.000Z",
+      "starts_at": "2026-03-21T05:30:00.000Z",
+      "expires_at": "2026-09-21T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-21T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-21T05:30:00.000Z",
+    "created_at": "2025-01-21T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-037",
+    "slug": "test-37",
+    "name": "Crest Birgunj Scholars School",
+    "name_np": "Nepali Crest Birgunj Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Birgunj",
+    "province": "2",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "birgunj",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=CB",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Crest%20Birgunj%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0037",
+      "notes": "Demo Annual subscription for Crest Birgunj Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-13T05:30:00.000Z",
+      "starts_at": "2026-03-13T05:30:00.000Z",
+      "expires_at": "2027-03-13T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-10T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-10T05:30:00.000Z",
+    "created_at": "2025-01-12T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-005",
+    "slug": "test-5",
+    "name": "Crest Palpa Skills Training Center",
+    "name_np": "Nepali Crest Palpa Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Palpa",
+    "province": "5",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "palpa",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=CP",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Crest%20Palpa%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0005",
+      "notes": "Demo Yearly subscription for Crest Palpa Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-05T05:30:00.000Z",
+      "starts_at": "2026-03-05T05:30:00.000Z",
+      "expires_at": "2027-03-05T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-05T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-05T05:30:00.000Z",
+    "created_at": "2025-01-05T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-017",
+    "slug": "test-17",
+    "name": "Everest Banepa Skills Training Center",
+    "name_np": "Nepali Everest Banepa Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Banepa",
+    "province": "3",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "banepa",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=EB",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Everest%20Banepa%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0017",
+      "notes": "Demo Yearly subscription for Everest Banepa Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-17T05:30:00.000Z",
+      "starts_at": "2026-03-17T05:30:00.000Z",
+      "expires_at": "2027-03-17T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-17T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-17T05:30:00.000Z",
+    "created_at": "2025-01-17T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-001",
+    "slug": "test-1",
+    "name": "Everest Dharan Scholars School",
+    "name_np": "Nepali Everest Dharan Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Dharan",
+    "province": "1",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "dharan",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=ED",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Everest%20Dharan%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0001",
+      "notes": "Demo Annual subscription for Everest Dharan Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-01T05:30:00.000Z",
+      "starts_at": "2026-03-01T05:30:00.000Z",
+      "expires_at": "2027-03-01T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-01T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-01T05:30:00.000Z",
+    "created_at": "2025-01-01T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-049",
+    "slug": "test-49",
+    "name": "Everest Mahendranagar Scholars School",
+    "name_np": "Nepali Everest Mahendranagar Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Mahendranagar",
+    "province": "7",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "mahendranagar",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=EM",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Everest%20Mahendranagar%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0049",
+      "notes": "Demo Annual subscription for Everest Mahendranagar Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-01T05:30:00.000Z",
+      "starts_at": "2026-03-01T05:30:00.000Z",
+      "expires_at": "2027-03-01T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-22T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-22T05:30:00.000Z",
+    "created_at": "2025-01-24T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-033",
+    "slug": "test-33",
+    "name": "Everest Nepalgunj Technical Institute",
+    "name_np": "Nepali Everest Nepalgunj Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Nepalgunj",
+    "province": "5",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "nepalgunj",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=EN",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Everest%20Nepalgunj%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0033",
+      "notes": "Demo 6 Months subscription for Everest Nepalgunj Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-09T05:30:00.000Z",
+      "starts_at": "2026-03-09T05:30:00.000Z",
+      "expires_at": "2026-09-09T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-06T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-06T05:30:00.000Z",
+    "created_at": "2025-01-08T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-039",
+    "slug": "test-39",
+    "name": "Future Gorkha Technical Institute",
+    "name_np": "Nepali Future Gorkha Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Gorkha",
+    "province": "4",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "gorkha",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=FG",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Future%20Gorkha%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0039",
+      "notes": "Demo 6 Months subscription for Future Gorkha Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-15T05:30:00.000Z",
+      "starts_at": "2026-03-15T05:30:00.000Z",
+      "expires_at": "2026-09-15T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-12T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-12T05:30:00.000Z",
+    "created_at": "2025-01-14T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-007",
+    "slug": "test-7",
+    "name": "Future Mahendranagar Scholars School",
+    "name_np": "Nepali Future Mahendranagar Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Mahendranagar",
+    "province": "7",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "mahendranagar",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=FM",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Future%20Mahendranagar%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0007",
+      "notes": "Demo Annual subscription for Future Mahendranagar Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-07T05:30:00.000Z",
+      "starts_at": "2026-03-07T05:30:00.000Z",
+      "expires_at": "2027-03-07T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-07T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-07T05:30:00.000Z",
+    "created_at": "2025-01-07T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-023",
+    "slug": "test-23",
+    "name": "Future Malangwa Skills Training Center",
+    "name_np": "Nepali Future Malangwa Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Malangwa",
+    "province": "2",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "malangwa",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=FM",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Future%20Malangwa%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0023",
+      "notes": "Demo Yearly subscription for Future Malangwa Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-23T05:30:00.000Z",
+      "starts_at": "2026-03-23T05:30:00.000Z",
+      "expires_at": "2027-03-23T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-23T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-23T05:30:00.000Z",
+    "created_at": "2025-01-23T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-020",
+    "slug": "test-20",
+    "name": "Horizon Dailekh National College",
+    "name_np": "Nepali Horizon Dailekh National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Dailekh",
+    "province": "6",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "dailekh",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=HD",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Horizon%20Dailekh%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0020",
+      "notes": "Demo Yearly subscription for Horizon Dailekh National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-20T05:30:00.000Z",
+      "starts_at": "2026-03-20T05:30:00.000Z",
+      "expires_at": "2027-03-20T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-20T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-20T05:30:00.000Z",
+    "created_at": "2025-01-20T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-036",
+    "slug": "test-36",
+    "name": "Horizon Dhankuta Health Sciences College",
+    "name_np": "Nepali Horizon Dhankuta Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Dhankuta",
+    "province": "1",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "dhankuta",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=HD",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Horizon%20Dhankuta%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0036",
+      "notes": "Demo 6 Months subscription for Horizon Dhankuta Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-12T05:30:00.000Z",
+      "starts_at": "2026-03-12T05:30:00.000Z",
+      "expires_at": "2026-09-12T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-09T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-09T05:30:00.000Z",
+    "created_at": "2025-01-11T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-004",
+    "slug": "test-4",
+    "name": "Horizon Syangja Metropolitan University",
+    "name_np": "Nepali Horizon Syangja Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Syangja",
+    "province": "4",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "syangja",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=HS",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Horizon%20Syangja%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0004",
+      "notes": "Demo Annual subscription for Horizon Syangja Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-04T05:30:00.000Z",
+      "starts_at": "2026-03-04T05:30:00.000Z",
+      "expires_at": "2027-03-04T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-04T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-04T05:30:00.000Z",
+    "created_at": "2025-01-04T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-025",
+    "slug": "test-25",
+    "name": "Insight Baglung Scholars School",
+    "name_np": "Nepali Insight Baglung Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Baglung",
+    "province": "4",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "baglung",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=IB",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Insight%20Baglung%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0025",
+      "notes": "Demo Annual subscription for Insight Baglung Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-01T05:30:00.000Z",
+      "starts_at": "2026-03-01T05:30:00.000Z",
+      "expires_at": "2027-03-01T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-25T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-25T05:30:00.000Z",
+    "created_at": "2025-01-25T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-009",
+    "slug": "test-9",
+    "name": "Insight Rajbiraj Technical Institute",
+    "name_np": "Nepali Insight Rajbiraj Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Rajbiraj",
+    "province": "2",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "rajbiraj",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=IR",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Insight%20Rajbiraj%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0009",
+      "notes": "Demo 6 Months subscription for Insight Rajbiraj Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-09T05:30:00.000Z",
+      "starts_at": "2026-03-09T05:30:00.000Z",
+      "expires_at": "2026-09-09T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-09T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-09T05:30:00.000Z",
+    "created_at": "2025-01-09T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-041",
+    "slug": "test-41",
+    "name": "Insight Salyan Skills Training Center",
+    "name_np": "Nepali Insight Salyan Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Salyan",
+    "province": "6",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "salyan",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=IS",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Insight%20Salyan%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0041",
+      "notes": "Demo Yearly subscription for Insight Salyan Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-17T05:30:00.000Z",
+      "starts_at": "2026-03-17T05:30:00.000Z",
+      "expires_at": "2027-03-17T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-14T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-14T05:30:00.000Z",
+    "created_at": "2025-01-16T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-050",
+    "slug": "test-50",
+    "name": "Lotus Itahari National College",
+    "name_np": "Nepali Lotus Itahari National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Itahari",
+    "province": "1",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "itahari",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=LI",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Lotus%20Itahari%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0050",
+      "notes": "Demo Yearly subscription for Lotus Itahari National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-02T05:30:00.000Z",
+      "starts_at": "2026-03-02T05:30:00.000Z",
+      "expires_at": "2027-03-02T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-23T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-23T05:30:00.000Z",
+    "created_at": "2025-01-25T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-034",
+    "slug": "test-34",
+    "name": "Lotus Jajarkot Metropolitan University",
+    "name_np": "Nepali Lotus Jajarkot Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Jajarkot",
+    "province": "6",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "jajarkot",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=LJ",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Lotus%20Jajarkot%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0034",
+      "notes": "Demo Annual subscription for Lotus Jajarkot Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-10T05:30:00.000Z",
+      "starts_at": "2026-03-10T05:30:00.000Z",
+      "expires_at": "2027-03-10T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-07T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-07T05:30:00.000Z",
+    "created_at": "2025-01-09T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-002",
+    "slug": "test-2",
+    "name": "Lotus Lahan National College",
+    "name_np": "Nepali Lotus Lahan National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Lahan",
+    "province": "2",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "lahan",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=LL",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Lotus%20Lahan%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0002",
+      "notes": "Demo Yearly subscription for Lotus Lahan National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-02T05:30:00.000Z",
+      "starts_at": "2026-03-02T05:30:00.000Z",
+      "expires_at": "2027-03-02T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-02T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-02T05:30:00.000Z",
+    "created_at": "2025-01-02T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-018",
+    "slug": "test-18",
+    "name": "Lotus Parbat Health Sciences College",
+    "name_np": "Nepali Lotus Parbat Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Parbat",
+    "province": "4",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "parbat",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=LP",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Lotus%20Parbat%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0018",
+      "notes": "Demo 6 Months subscription for Lotus Parbat Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-18T05:30:00.000Z",
+      "starts_at": "2026-03-18T05:30:00.000Z",
+      "expires_at": "2026-09-18T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-18T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-18T05:30:00.000Z",
+    "created_at": "2025-01-18T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-011",
+    "slug": "test-11",
+    "name": "Meridian Damauli Skills Training Center",
+    "name_np": "Nepali Meridian Damauli Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Damauli",
+    "province": "4",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "damauli",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=MD",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Meridian%20Damauli%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0011",
+      "notes": "Demo Yearly subscription for Meridian Damauli Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-11T05:30:00.000Z",
+      "starts_at": "2026-03-11T05:30:00.000Z",
+      "expires_at": "2027-03-11T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-11T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-11T05:30:00.000Z",
+    "created_at": "2025-01-11T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-043",
+    "slug": "test-43",
+    "name": "Meridian Dharan Scholars School",
+    "name_np": "Nepali Meridian Dharan Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Dharan",
+    "province": "1",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "dharan",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=MD",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Meridian%20Dharan%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0043",
+      "notes": "Demo Annual subscription for Meridian Dharan Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-19T05:30:00.000Z",
+      "starts_at": "2026-03-19T05:30:00.000Z",
+      "expires_at": "2027-03-19T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-16T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-16T05:30:00.000Z",
+    "created_at": "2025-01-18T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-027",
+    "slug": "test-27",
+    "name": "Meridian Kalikot Technical Institute",
+    "name_np": "Nepali Meridian Kalikot Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Kalikot",
+    "province": "6",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "kalikot",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=MK",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Meridian%20Kalikot%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0027",
+      "notes": "Demo 6 Months subscription for Meridian Kalikot Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-03T05:30:00.000Z",
+      "starts_at": "2026-03-03T05:30:00.000Z",
+      "expires_at": "2026-09-03T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-27T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-27T05:30:00.000Z",
+    "created_at": "2025-01-02T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-028",
+    "slug": "test-28",
+    "name": "Northfield Doti Metropolitan University",
+    "name_np": "Nepali Northfield Doti Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Doti",
+    "province": "7",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "doti",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=ND",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Northfield%20Doti%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0028",
+      "notes": "Demo Annual subscription for Northfield Doti Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-04T05:30:00.000Z",
+      "starts_at": "2026-03-04T05:30:00.000Z",
+      "expires_at": "2027-03-04T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-01T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-01T05:30:00.000Z",
+    "created_at": "2025-01-03T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-012",
+    "slug": "test-12",
+    "name": "Northfield Gulmi Health Sciences College",
+    "name_np": "Nepali Northfield Gulmi Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Gulmi",
+    "province": "5",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "gulmi",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=NG",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Northfield%20Gulmi%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0012",
+      "notes": "Demo 6 Months subscription for Northfield Gulmi Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-12T05:30:00.000Z",
+      "starts_at": "2026-03-12T05:30:00.000Z",
+      "expires_at": "2026-09-12T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-12T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-12T05:30:00.000Z",
+    "created_at": "2025-01-12T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-044",
+    "slug": "test-44",
+    "name": "Northfield Lahan National College",
+    "name_np": "Nepali Northfield Lahan National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Lahan",
+    "province": "2",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "lahan",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=NL",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Northfield%20Lahan%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0044",
+      "notes": "Demo Yearly subscription for Northfield Lahan National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-20T05:30:00.000Z",
+      "starts_at": "2026-03-20T05:30:00.000Z",
+      "expires_at": "2027-03-20T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-17T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-17T05:30:00.000Z",
+    "created_at": "2025-01-19T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-042",
+    "slug": "test-42",
+    "name": "Pioneer Achham Health Sciences College",
+    "name_np": "Nepali Pioneer Achham Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Achham",
+    "province": "7",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "achham",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=PA",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Pioneer%20Achham%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0042",
+      "notes": "Demo 6 Months subscription for Pioneer Achham Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-18T05:30:00.000Z",
+      "starts_at": "2026-03-18T05:30:00.000Z",
+      "expires_at": "2026-09-18T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-15T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-15T05:30:00.000Z",
+    "created_at": "2025-01-17T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-010",
+    "slug": "test-10",
+    "name": "Pioneer Chitwan Metropolitan University",
+    "name_np": "Nepali Pioneer Chitwan Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Chitwan",
+    "province": "3",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "chitwan",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=PC",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0010",
+      "notes": "Demo Annual subscription for Pioneer Chitwan Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-10T05:30:00.000Z",
+      "starts_at": "2026-03-10T05:30:00.000Z",
+      "expires_at": "2027-03-10T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-10T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-10T05:30:00.000Z",
+    "created_at": "2025-01-10T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-026",
+    "slug": "test-26",
+    "name": "Pioneer Kapilvastu National College",
+    "name_np": "Nepali Pioneer Kapilvastu National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Education",
+      "Computer Science"
+    ],
+    "affiliation": "TU",
+    "district": "Kapilvastu",
+    "province": "5",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "kapilvastu",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=PK",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Pioneer%20Kapilvastu%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0026",
+      "notes": "Demo Yearly subscription for Pioneer Kapilvastu National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-02T00:00:00.000Z",
+      "starts_at": "2026-03-02T05:30:00.000Z",
+      "expires_at": "2027-03-02T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-04-01T07:22:49.899Z"
+    },
+    "updated_at": "2026-04-01T07:22:49.899Z",
+    "created_at": "2025-01-01T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-038",
+    "slug": "test-38",
+    "name": "Radiant Bhaktapur National College",
+    "name_np": "Nepali Radiant Bhaktapur National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Bhaktapur",
+    "province": "3",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "bhaktapur",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=RB",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Radiant%20Bhaktapur%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0038",
+      "notes": "Demo Yearly subscription for Radiant Bhaktapur National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-14T05:30:00.000Z",
+      "starts_at": "2026-03-14T05:30:00.000Z",
+      "expires_at": "2027-03-14T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-11T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-11T05:30:00.000Z",
+    "created_at": "2025-01-13T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-006",
+    "slug": "test-6",
+    "name": "Radiant Dolpa Health Sciences College",
+    "name_np": "Nepali Radiant Dolpa Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Dolpa",
+    "province": "6",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "dolpa",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=RD",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Radiant%20Dolpa%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0006",
+      "notes": "Demo 6 Months subscription for Radiant Dolpa Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-06T05:30:00.000Z",
+      "starts_at": "2026-03-06T05:30:00.000Z",
+      "expires_at": "2026-09-06T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-06T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-06T05:30:00.000Z",
+    "created_at": "2025-01-06T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-022",
+    "slug": "test-22",
+    "name": "Radiant Jhapa Metropolitan University",
+    "name_np": "Nepali Radiant Jhapa Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Jhapa",
+    "province": "1",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "jhapa",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=RJ",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Radiant%20Jhapa%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0022",
+      "notes": "Demo Annual subscription for Radiant Jhapa Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-22T05:30:00.000Z",
+      "starts_at": "2026-03-22T05:30:00.000Z",
+      "expires_at": "2027-03-22T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-22T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-22T05:30:00.000Z",
+    "created_at": "2025-01-22T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-014",
+    "slug": "test-14",
+    "name": "Riverside Dadeldhura National College",
+    "name_np": "Nepali Riverside Dadeldhura National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Dadeldhura",
+    "province": "7",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "dadeldhura",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=RD",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Riverside%20Dadeldhura%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0014",
+      "notes": "Demo Yearly subscription for Riverside Dadeldhura National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-14T05:30:00.000Z",
+      "starts_at": "2026-03-14T05:30:00.000Z",
+      "expires_at": "2027-03-14T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-14T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-14T05:30:00.000Z",
+    "created_at": "2025-01-14T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-030",
+    "slug": "test-30",
+    "name": "Riverside Jaleshwar Health Sciences College",
+    "name_np": "Nepali Riverside Jaleshwar Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Jaleshwar",
+    "province": "2",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "jaleshwar",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=RJ",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Riverside%20Jaleshwar%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0030",
+      "notes": "Demo 6 Months subscription for Riverside Jaleshwar Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-06T05:30:00.000Z",
+      "starts_at": "2026-03-06T05:30:00.000Z",
+      "expires_at": "2026-09-06T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-03T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-03T05:30:00.000Z",
+    "created_at": "2025-01-05T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-046",
+    "slug": "test-46",
+    "name": "Riverside Syangja Metropolitan University",
+    "name_np": "Nepali Riverside Syangja Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Syangja",
+    "province": "4",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "syangja",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=RS",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Riverside%20Syangja%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "eSewa",
+      "payment_reference": "REF-0046",
+      "notes": "Demo Annual subscription for Riverside Syangja Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-22T05:30:00.000Z",
+      "starts_at": "2026-03-22T05:30:00.000Z",
+      "expires_at": "2027-03-22T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-19T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-19T05:30:00.000Z",
+    "created_at": "2025-01-21T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-032",
+    "slug": "test-32",
+    "name": "Scholars Besisahar National College",
+    "name_np": "Nepali Scholars Besisahar National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Besisahar",
+    "province": "4",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "besisahar",
+      "gandaki"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=SB",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Scholars%20Besisahar%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0032",
+      "notes": "Demo Yearly subscription for Scholars Besisahar National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-08T05:30:00.000Z",
+      "starts_at": "2026-03-08T05:30:00.000Z",
+      "expires_at": "2027-03-08T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-05T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-05T05:30:00.000Z",
+    "created_at": "2025-01-07T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-048",
+    "slug": "test-48",
+    "name": "Scholars Dolpa Health Sciences College",
+    "name_np": "Nepali Scholars Dolpa Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Dolpa",
+    "province": "6",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "dolpa",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=SD",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Scholars%20Dolpa%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0048",
+      "notes": "Demo 6 Months subscription for Scholars Dolpa Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-24T05:30:00.000Z",
+      "starts_at": "2026-03-24T05:30:00.000Z",
+      "expires_at": "2026-09-24T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-21T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-21T05:30:00.000Z",
+    "created_at": "2025-01-23T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-016",
+    "slug": "test-16",
+    "name": "Scholars Kalaiya Metropolitan University",
+    "name_np": "Nepali Scholars Kalaiya Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Kalaiya",
+    "province": "2",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "kalaiya",
+      "madhesh"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=SK",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Scholars%20Kalaiya%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0016",
+      "notes": "Demo Annual subscription for Scholars Kalaiya Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-16T05:30:00.000Z",
+      "starts_at": "2026-03-16T05:30:00.000Z",
+      "expires_at": "2027-03-16T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-16T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-16T05:30:00.000Z",
+    "created_at": "2025-01-16T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-045",
+    "slug": "test-45",
+    "name": "Southgate Hetauda Technical Institute",
+    "name_np": "Nepali Southgate Hetauda Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Hetauda",
+    "province": "3",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "hetauda",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=SH",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Southgate%20Hetauda%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0045",
+      "notes": "Demo 6 Months subscription for Southgate Hetauda Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-21T05:30:00.000Z",
+      "starts_at": "2026-03-21T05:30:00.000Z",
+      "expires_at": "2026-09-21T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-18T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-18T05:30:00.000Z",
+    "created_at": "2025-01-20T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-029",
+    "slug": "test-29",
+    "name": "Southgate Ilam Skills Training Center",
+    "name_np": "Nepali Southgate Ilam Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Ilam",
+    "province": "1",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "ilam",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=SI",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Southgate%20Ilam%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0029",
+      "notes": "Demo Yearly subscription for Southgate Ilam Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-05T05:30:00.000Z",
+      "starts_at": "2026-03-05T05:30:00.000Z",
+      "expires_at": "2027-03-05T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-02T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-02T05:30:00.000Z",
+    "created_at": "2025-01-04T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-013",
+    "slug": "test-13",
+    "name": "Southgate Jumla Scholars School",
+    "name_np": "Nepali Southgate Jumla Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Jumla",
+    "province": "6",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "jumla",
+      "karnali"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=SJ",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Southgate%20Jumla%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Cash",
+      "payment_reference": "REF-0013",
+      "notes": "Demo Annual subscription for Southgate Jumla Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-13T05:30:00.000Z",
+      "starts_at": "2026-03-13T05:30:00.000Z",
+      "expires_at": "2027-03-13T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-13T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-13T05:30:00.000Z",
+    "created_at": "2025-01-13T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-035",
+    "slug": "test-35",
+    "name": "Summit Bajhang Skills Training Center",
+    "name_np": "Nepali Summit Bajhang Skills Training Center",
+    "type": "Training Institute",
+    "level": [
+      "Certificate",
+      "Diploma"
+    ],
+    "field": [
+      "IT",
+      "Language",
+      "Design"
+    ],
+    "affiliation": "Private",
+    "district": "Bajhang",
+    "province": "7",
+    "is_verified": true,
+    "tags": [
+      "training",
+      "skills",
+      "bootcamp",
+      "bajhang",
+      "sudurpashchim"
+    ],
+    "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=SB",
+    "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Summit%20Bajhang%20Skills%20Training%20Center",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0035",
+      "notes": "Demo Yearly subscription for Summit Bajhang Skills Training Center",
+      "auto_renew": false,
+      "paid_at": "2026-03-11T05:30:00.000Z",
+      "starts_at": "2026-03-11T05:30:00.000Z",
+      "expires_at": "2027-03-11T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-08T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-08T05:30:00.000Z",
+    "created_at": "2025-01-10T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-019",
+    "slug": "test-19",
+    "name": "Summit Bhairahawa Scholars School",
+    "name_np": "Nepali Summit Bhairahawa Scholars School",
+    "type": "School",
+    "level": [
+      "Pre-School",
+      "School",
+      "+2"
+    ],
+    "field": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "affiliation": "NEB",
+    "district": "Bhairahawa",
+    "province": "5",
+    "is_verified": true,
+    "tags": [
+      "school",
+      "day-school",
+      "student-life",
+      "bhairahawa",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=SB",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Summit%20Bhairahawa%20Scholars%20School",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0019",
+      "notes": "Demo Annual subscription for Summit Bhairahawa Scholars School",
+      "auto_renew": false,
+      "paid_at": "2026-03-19T05:30:00.000Z",
+      "starts_at": "2026-03-19T05:30:00.000Z",
+      "expires_at": "2027-03-19T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-19T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-19T05:30:00.000Z",
+    "created_at": "2025-01-19T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-003",
+    "slug": "test-3",
+    "name": "Summit Hetauda Technical Institute",
+    "name_np": "Nepali Summit Hetauda Technical Institute",
+    "type": "Polytechnic Institute",
+    "level": [
+      "Diploma"
+    ],
+    "field": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Health Sciences"
+    ],
+    "affiliation": "CTEVT",
+    "district": "Hetauda",
+    "province": "3",
+    "is_verified": false,
+    "tags": [
+      "technical",
+      "diploma",
+      "hands-on",
+      "hetauda",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=SH",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Summit%20Hetauda%20Technical%20Institute",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Khalti",
+      "payment_reference": "REF-0003",
+      "notes": "Demo 6 Months subscription for Summit Hetauda Technical Institute",
+      "auto_renew": false,
+      "paid_at": "2026-03-03T05:30:00.000Z",
+      "starts_at": "2026-03-03T05:30:00.000Z",
+      "expires_at": "2026-09-03T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-03T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-03T05:30:00.000Z",
+    "created_at": "2025-01-03T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-024",
+    "slug": "test-24",
+    "name": "Valley Dhading Health Sciences College",
+    "name_np": "Nepali Valley Dhading Health Sciences College",
+    "type": "Nursing College",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Nursing",
+      "Public Health",
+      "Medical Lab"
+    ],
+    "affiliation": "PU",
+    "district": "Dhading",
+    "province": "3",
+    "is_verified": false,
+    "tags": [
+      "health",
+      "nursing",
+      "clinical",
+      "dhading",
+      "bagmati"
+    ],
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=VD",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Valley%20Dhading%20Health%20Sciences%20College",
+    "subscription": {
+      "plan": "6 Months",
+      "amount": 570,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0024",
+      "notes": "Demo 6 Months subscription for Valley Dhading Health Sciences College",
+      "auto_renew": true,
+      "paid_at": "2026-03-24T05:30:00.000Z",
+      "starts_at": "2026-03-24T05:30:00.000Z",
+      "expires_at": "2026-09-24T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-24T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-24T05:30:00.000Z",
+    "created_at": "2025-01-24T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-008",
+    "slug": "test-8",
+    "name": "Valley Itahari National College",
+    "name_np": "Nepali Valley Itahari National College",
+    "type": "College",
+    "level": [
+      "+2",
+      "Bachelor"
+    ],
+    "field": [
+      "Management",
+      "Computer Science",
+      "Education"
+    ],
+    "affiliation": "TU",
+    "district": "Itahari",
+    "province": "1",
+    "is_verified": true,
+    "tags": [
+      "college",
+      "undergraduate",
+      "career-focused",
+      "itahari",
+      "koshi"
+    ],
+    "logo": "https://dummyimage.com/360x360/ffe4d2/4b2e1f.png?text=VI",
+    "cover": "https://dummyimage.com/1600x980/ffe4d2/4b2e1f.jpg?text=Valley%20Itahari%20National%20College",
+    "subscription": {
+      "plan": "Yearly",
+      "amount": 1080,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0008",
+      "notes": "Demo Yearly subscription for Valley Itahari National College",
+      "auto_renew": true,
+      "paid_at": "2026-03-08T05:30:00.000Z",
+      "starts_at": "2026-03-08T05:30:00.000Z",
+      "expires_at": "2027-03-08T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-08T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-08T05:30:00.000Z",
+    "created_at": "2025-01-08T05:30:00.000Z",
+    "is_certified": false
+  },
+  {
+    "id": "biz-040",
+    "slug": "test-40",
+    "name": "Valley Tulsipur Metropolitan University",
+    "name_np": "Nepali Valley Tulsipur Metropolitan University",
+    "type": "University",
+    "level": [
+      "Bachelor",
+      "Master"
+    ],
+    "field": [
+      "Engineering",
+      "Business",
+      "Law"
+    ],
+    "affiliation": "KU",
+    "district": "Tulsipur",
+    "province": "5",
+    "is_verified": true,
+    "tags": [
+      "university",
+      "research",
+      "residential",
+      "tulsipur",
+      "lumbini"
+    ],
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=VT",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Valley%20Tulsipur%20Metropolitan%20University",
+    "subscription": {
+      "plan": "Annual",
+      "amount": 1200,
+      "currency": "NPR",
+      "payment_method": "Bank Transfer",
+      "payment_reference": "REF-0040",
+      "notes": "Demo Annual subscription for Valley Tulsipur Metropolitan University",
+      "auto_renew": true,
+      "paid_at": "2026-03-16T05:30:00.000Z",
+      "starts_at": "2026-03-16T05:30:00.000Z",
+      "expires_at": "2027-03-16T05:30:00.000Z",
+      "payment_status": "active",
+      "last_updated_at": "2026-03-13T05:30:00.000Z"
+    },
+    "updated_at": "2026-03-13T05:30:00.000Z",
+    "created_at": "2025-01-15T05:30:00.000Z",
+    "is_certified": false
+  }
+]
