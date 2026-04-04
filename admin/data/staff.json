@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ieigbd2x",
+    "employee_code": "",
+    "full_name": "Pratiksha",
+    "role": "accountant and legal head",
+    "department": "Operation",
+    "employment_type": "Full Time",
+    "status": "active",
+    "phone": "9765862407",
+    "email": "vishu@gmail.com",
+    "address": "nepal",
+    "emergency_contact": "9847551847",
+    "joined_at": "2026-04-04T00:00:00.000Z",
+    "left_at": "",
+    "salary_amount": 5000,
+    "salary_currency": "NPR",
+    "pay_cycle": "monthly",
+    "payment_day": 30,
+    "bank_account": "khalti: 9765862407",
+    "avatar_url": "",
+    "notes": "",
+    "skills": [],
+    "documents": [],
+    "salary_increments": [
+      {
+        "id": "9vgimish",
+        "effective_from": "2026-04-04T00:00:00.000Z",
+        "salary_amount": 5000,
+        "salary_currency": "NPR",
+        "role": "accountant and legal head",
+        "department": "Operation",
+        "notes": "",
+        "created_at": "2026-04-04T07:49:37.219Z",
+        "updated_at": "2026-04-04T07:49:37.219Z"
+      }
+    ],
+    "payment_history": [
+      {
+        "id": "7x8pmwm9",
+        "amount": 5000,
+        "currency": "NPR",
+        "paid_at": "2026-04-04T00:00:00.000Z",
+        "method": "",
+        "reference": "",
+        "notes": "",
+        "created_at": "2026-04-04T07:52:48.809Z",
+        "updated_at": "2026-04-04T07:52:48.809Z"
+      }
+    ],
+    "created_at": "2026-04-04T06:01:46.008Z",
+    "updated_at": "2026-04-04T08:00:54.136Z"
+  }
+]

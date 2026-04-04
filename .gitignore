@@ -1,0 +1,12 @@
+.env
+admin/.env
+admin/.env.local
+user/.env
+user/.env.local
+admin/node_modules/
+admin/db-mirror-repo/
+user/node_modules/
+user/dist/
+backup/
+user_out/
+admin/data/

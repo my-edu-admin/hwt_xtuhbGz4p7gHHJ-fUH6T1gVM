@@ -1,0 +1,91 @@
+{
+  "app_name": "Shree Sagarmatha Vidhya mandir",
+  "app_tagline": "School · Kapilvastu, Lumbini",
+  "intro_title": "Shree Sagarmatha Vidhya mandir",
+  "intro_body": "nothing",
+  "director_name": "Chhatra Mani Pandey",
+  "director_role": "Academic Lead",
+  "director_message": "Welcome to Shree Sagarmatha Vidhya mandir. Use this section to introduce the institute philosophy, learner promise, and the atmosphere you want parents and students to feel before visiting.",
+  "admissions_note": "Explain the admission cycle, required documents, scholarship opportunities, interview flow, and any intake deadlines here.",
+  "contact_headline": "Start The Conversation",
+  "theme_seed": "#355da8",
+  "logo_url": "",
+  "hero_image_url": "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/fca0fb86-cc09-4533-9937-60fd3ea31632.png",
+  "gallery": [
+    "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/f350fd47-4284-4bdf-a37c-f84ff4a02064.png",
+    "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/fca0fb86-cc09-4533-9937-60fd3ea31632.png"
+  ],
+  "videos": [
+    {
+      "title": "Home",
+      "url": "https://youtu.be/9owUCOl8y-0?si=g0haXlX3xCnvn1KN"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Education",
+      "url": "https://youtube.com/playlist?list=PLdQpBAmcg9wf709q2SYTEYjCB9BWgnpRL&si=Tvs3Ic9l7IUFObjM",
+      "description": "Qbasic Video"
+    }
+  ],
+  "programs": [
+    "Educati"
+  ],
+  "facilities": [
+    "Library",
+    "Science Lab",
+    "Computer Lab",
+    "Canteen",
+    "Auditorium",
+    "Parking"
+  ],
+  "highlights": [
+    {
+      "title": "Learners",
+      "body": "99"
+    },
+    {
+      "title": "Staff Members",
+      "body": "25"
+    },
+    {
+      "title": "Profile Rating",
+      "body": "5"
+    }
+  ],
+  "quick_facts": [
+    {
+      "value": "99",
+      "label": "Learners"
+    },
+    {
+      "value": "25",
+      "label": "Staff Members"
+    },
+    {
+      "value": "5",
+      "label": "Profile Rating"
+    }
+  ],
+  "notices": [],
+  "staff": [
+    {
+      "name": "Chhatra Mani pandey",
+      "role": "Principal",
+      "image": "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/8355be2d-343d-4c7a-8bc5-4c5f4a8dbedc.jpg",
+      "bio": "Principal head"
+    }
+  ],
+  "contact": {
+    "address": "kapilvastu",
+    "phone": "9847557148",
+    "email": "vishuallahuk@gmail.com",
+    "website": "https://www.google.com"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/mrbeast/",
+    "instagram": "",
+    "youtube": "https://youtu.be/9owUCOl8y-0?si=g0haXlX3xCnvn1KN",
+    "twitter": ""
+  }
+}
