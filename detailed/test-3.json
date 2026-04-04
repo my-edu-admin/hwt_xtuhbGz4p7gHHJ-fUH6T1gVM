@@ -16,6 +16,7 @@
   "district": "Hetauda",
   "province": "3",
   "is_verified": false,
+  "is_certified": false,
   "tags": [
     "technical",
     "diploma",
@@ -95,6 +96,5 @@
     "Diploma in Computer Engineering",
     "Diploma in Medical Lab Technology",
     "Industrial Training Lab"
-  ],
-  "is_certified": false
+  ]
 }

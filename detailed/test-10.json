@@ -17,6 +17,7 @@
   "district": "Chitwan",
   "province": "3",
   "is_verified": true,
+  "is_certified": false,
   "tags": [
     "university",
     "research",
@@ -26,23 +27,6 @@
   ],
   "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=PC",
   "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University",
-  "subscription": {
-    "plan": "Annual",
-    "amount": 1200,
-    "currency": "NPR",
-    "payment_method": "eSewa",
-    "payment_reference": "REF-0010",
-    "notes": "Demo Annual subscription for Pioneer Chitwan Metropolitan University",
-    "auto_renew": true,
-    "paid_at": "2026-03-10T05:30:00.000Z",
-    "starts_at": "2026-03-10T05:30:00.000Z",
-    "expires_at": "2027-03-10T05:30:00.000Z",
-    "payment_status": "active",
-    "last_updated_at": "2026-03-10T05:30:00.000Z"
-  },
-  "updated_at": "2026-03-10T05:30:00.000Z",
-  "created_at": "2025-01-10T05:30:00.000Z",
-  "description": "Pioneer Chitwan Metropolitan University is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and active payment history so the entire directory flow can be exercised without manual entry.",
   "contact": {
     "address": "Ward 1, Vision Square, Chitwan, Bagmati, Nepal",
     "phone": [
@@ -56,6 +40,23 @@
       "lng": 85.214
     }
   },
+  "subscription": {
+    "plan": "Yearly",
+    "amount": 1080,
+    "currency": "NPR",
+    "payment_method": "eSewa",
+    "payment_reference": "",
+    "notes": "Demo monthly subscription for Pioneer Chitwan Metropolitan University",
+    "auto_renew": true,
+    "paid_at": "2026-04-04T00:00:00.000Z",
+    "starts_at": "2026-04-10T05:30:00.000Z",
+    "expires_at": "2027-04-10T05:30:00.000Z",
+    "payment_status": "active",
+    "last_updated_at": "2026-04-04T04:58:33.180Z"
+  },
+  "updated_at": "2026-04-04T04:58:33.180Z",
+  "created_at": "2025-01-10T05:30:00.000Z",
+  "description": "Pioneer Chitwan Metropolitan University is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and active payment history so the entire directory flow can be exercised without manual entry.",
   "stats": {
     "students": 560,
     "faculty": 64,
@@ -97,6 +98,5 @@
     "LLB",
     "MBA",
     "Research and Innovation Hub"
-  ],
-  "is_certified": false
+  ]
 }

@@ -17,6 +17,7 @@
   "district": "Lahan",
   "province": "2",
   "is_verified": true,
+  "is_certified": false,
   "tags": [
     "college",
     "undergraduate",
@@ -97,6 +98,5 @@
     "BCA",
     "B.Ed.",
     "Career Placement Cell"
-  ],
-  "is_certified": false
+  ]
 }

@@ -17,6 +17,7 @@
   "district": "Dolpa",
   "province": "6",
   "is_verified": false,
+  "is_certified": false,
   "tags": [
     "health",
     "nursing",
@@ -97,6 +98,5 @@
     "BMLT",
     "MSc Nursing",
     "Hospital Internship Desk"
-  ],
-  "is_certified": false
+  ]
 }

@@ -17,6 +17,7 @@
   "district": "Palpa",
   "province": "5",
   "is_verified": true,
+  "is_certified": false,
   "tags": [
     "training",
     "skills",
@@ -97,6 +98,5 @@
     "Graphic Design",
     "Digital Marketing",
     "Career Coaching"
-  ],
-  "is_certified": false
+  ]
 }
