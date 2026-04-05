@@ -15,6 +15,10 @@
     "left_at": "",
     "salary_amount": 5000,
     "salary_currency": "NPR",
+    "base_salary_amount": 5000,
+    "base_salary_currency": "NPR",
+    "base_role": "accountant and legal head",
+    "base_department": "Operation",
     "pay_cycle": "monthly",
     "payment_day": 30,
     "bank_account": "khalti: 9765862407",
@@ -22,19 +26,7 @@
     "notes": "",
     "skills": [],
     "documents": [],
-    "salary_increments": [
-      {
-        "id": "9vgimish",
-        "effective_from": "2026-04-04T00:00:00.000Z",
-        "salary_amount": 5000,
-        "salary_currency": "NPR",
-        "role": "accountant and legal head",
-        "department": "Operation",
-        "notes": "",
-        "created_at": "2026-04-04T07:49:37.219Z",
-        "updated_at": "2026-04-04T07:49:37.219Z"
-      }
-    ],
+    "salary_increments": [],
     "payment_history": [
       {
         "id": "7x8pmwm9",
@@ -49,6 +41,6 @@
       }
     ],
     "created_at": "2026-04-04T06:01:46.008Z",
-    "updated_at": "2026-04-04T08:00:54.136Z"
+    "updated_at": "2026-04-04T12:11:18.465Z"
   }
 ]

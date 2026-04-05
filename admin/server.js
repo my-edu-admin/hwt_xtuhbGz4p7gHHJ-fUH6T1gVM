@@ -22,8 +22,9 @@ let adminShutdownScheduled = false;
 const adminSockets = new Set();
 
 const DATA_DIR = path.join(__dirname, "data");
-const BASIC_DIR = path.join(DATA_DIR, "basic");
-const DETAILED_DIR = path.join(DATA_DIR, "detailed");
+const BUSINESS_DATA_ROOT = resolvePreferredBusinessDataRoot(PROJECT_ROOT, DATA_DIR);
+const BASIC_DIR = path.join(BUSINESS_DATA_ROOT, "basic");
+const DETAILED_DIR = path.join(BUSINESS_DATA_ROOT, "detailed");
 const PAYMENTS_DIR = path.join(DATA_DIR, "payments");
 const EXPENSES_FILE = path.join(DATA_DIR, "expenses.json");
 const STAFF_FILE = path.join(DATA_DIR, "staff.json");
@@ -393,7 +394,7 @@ app.get("/api/admin/session", (req, res) => {
   res.set("Cache-Control", "no-store");
   return res.json({
     success: true,
-    authenticated: true,  // Always authenticated - password protection removed
+    authenticated: true,
     password_required: false,
   });
 });
@@ -2132,9 +2133,9 @@ function buildBusinessIdCardPayload(record) {
 function renderBusinessIdCardHtml(card) {
   const escape = (value) =>
     String(value || "")
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;");
+      .replaceAll("&", "&")
+      .replaceAll("<", "<")
+      .replaceAll(">", ">");
   return `
     <div style="margin-top:16px;padding:18px;border-radius:18px;border:1px solid #d4d7df;background:linear-gradient(145deg,#f8fbff,#eef4ff);font-family:Arial,sans-serif;color:#14335c;">
       <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#5c76a6;">${escape(card.title)}</div>
@@ -2326,7 +2327,6 @@ function scheduleDirectoryCacheWarmup() {
     try {
       getPublicDirectoryList();
     } catch {
-      // Ignore warmup failures and serve lazily on request.
     }
   }, 0);
 }
@@ -2365,6 +2365,30 @@ function getLatestRecordTimestamp(records) {
   return latestTime ? new Date(latestTime).toISOString() : "";
 }
 
+function getDetailedRecordReadPaths(slug) {
+  const normalizedSlug = sanitizeSlug(slug);
+  if (!normalizedSlug) {
+    return [];
+  }
+
+  const candidates = [];
+  const addCandidate = (baseDir) => {
+    if (!baseDir) {
+      return;
+    }
+
+    const targetPath = filePathFor(baseDir, normalizedSlug);
+    if (!candidates.includes(targetPath)) {
+      candidates.push(targetPath);
+    }
+  };
+
+  addCandidate(DETAILED_DIR);
+  addCandidate(path.join(PROJECT_ROOT, "detailed"));
+
+  return candidates;
+}
+
 function readDetailedRecord(slug) {
   const normalizedSlug = sanitizeSlug(slug);
   if (!normalizedSlug) {
@@ -2375,11 +2399,15 @@ function readDetailedRecord(slug) {
     return detailedRecordCache.get(normalizedSlug);
   }
 
-  const detailed = readJson(filePathFor(DETAILED_DIR, normalizedSlug), null);
-  if (detailed) {
-    detailedRecordCache.set(normalizedSlug, detailed);
+  for (const detailedPath of getDetailedRecordReadPaths(normalizedSlug)) {
+    const detailed = readJson(detailedPath, null);
+    if (detailed) {
+      detailedRecordCache.set(normalizedSlug, detailed);
+      return detailed;
+    }
   }
-  return detailed;
+
+  return null;
 }
 
 function writeDetailedRecord(slug, value) {
@@ -2399,7 +2427,9 @@ function removeDetailedRecord(slug) {
     return;
   }
 
-  removeIfExists(filePathFor(DETAILED_DIR, normalizedSlug));
+  for (const detailedPath of getDetailedRecordReadPaths(normalizedSlug)) {
+    removeIfExists(detailedPath);
+  }
   invalidateDirectoryDataCache(normalizedSlug);
 }
 
@@ -4905,6 +4935,44 @@ function addDaysUtc(date, dayCount) {
   return new Date(date.getTime() + dayCount * 86400000);
 }
 
+function resolvePreferredBusinessDataRoot(projectRoot, adminDataRoot) {
+  const candidates = [projectRoot, adminDataRoot]
+    .map((root) => ({
+      root,
+      score: getBusinessDataRootScore(root),
+    }))
+    .sort((left, right) => right.score - left.score);
+
+  return candidates[0]?.root || adminDataRoot;
+}
+
+function getBusinessDataRootScore(root) {
+  if (!root) {
+    return 0;
+  }
+
+  let score = 0;
+  const basicIndexPath = path.join(root, "basic", "_cards.json");
+  const detailedDirPath = path.join(root, "detailed");
+
+  if (fs.existsSync(basicIndexPath)) {
+    score += 5;
+  }
+
+  if (fs.existsSync(detailedDirPath)) {
+    try {
+      score += Math.min(
+        25,
+        fs.readdirSync(detailedDirPath).filter((file) => file.endsWith(".json")).length
+      );
+    } catch {
+      // Ignore unreadable candidates and fall back to the admin data root.
+    }
+  }
+
+  return score;
+}
+
 function filePathFor(dir, slug) {
   return path.join(dir, `${slug}.json`);
 }
@@ -5495,6 +5563,9 @@ adminServer = app.listen(PORT, HOST, () => {
   );
   console.log(`Basic card index: ${BASIC_INDEX_FILE}`);
   console.log(`Detailed data: ${DETAILED_DIR}`);
+  if (fs.existsSync(path.join(PROJECT_ROOT, "detailed"))) {
+    console.log(`Detailed fallback data: ${path.join(PROJECT_ROOT, "detailed")}`);
+  }
   console.log(`Expenses file: ${EXPENSES_FILE}`);
   if (HAS_USER_DIST) {
     console.log(`Public user route: http://${displayHost}:${PORT}${USER_STATIC_ROUTE}`);

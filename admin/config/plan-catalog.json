@@ -1,0 +1,28 @@
+{
+  "currency": "NPR",
+  "base_monthly_rate": 100,
+  "default_label": "monthly",
+  "plans": [
+    {
+      "id": "monthly",
+      "label": "monthly",
+      "months": 1,
+      "discount_percent": 0,
+      "description": "1 month at the standard monthly rate."
+    },
+    {
+      "id": "yearly",
+      "label": "Yearly",
+      "months": 12,
+      "discount_percent": 10,
+      "description": "12 months with a 10% discount."
+    },
+    {
+      "id": "six-months",
+      "label": "6 Months",
+      "months": 6,
+      "discount_percent": 5,
+      "description": "6 months with a 5% discount."
+    }
+  ]
+}

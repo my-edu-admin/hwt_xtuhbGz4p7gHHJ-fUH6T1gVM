@@ -655,23 +655,43 @@
       ${staff.left_at ? `<div class="summary-meta">Left / archived on ${escapeHtml(formatDate(staff.left_at))}</div>` : ""}
     `;
 
-    list.innerHTML = (staff.payment_history || []).length
-      ? staff.payment_history
-          .map(
-            (payment) => `
-              <div class="history-item">
-                <div><b>${escapeHtml(formatDate(payment.paid_at))}</b> · ${escapeHtml(formatCurrency(payment.amount, payment.currency))}</div>
-                <div>${escapeHtml(payment.method || "Method not set")} · ${escapeHtml(payment.reference || "No reference")}</div>
-                <div class="summary-meta">${escapeHtml(payment.notes || "No note")}</div>
-                <div class="table-actions space-top">
-                  <button type="button" class="row-btn" onclick="editStaffPayment('${escapeHtml(payment.id)}')">Edit</button>
-                  <button type="button" class="row-btn warn" onclick="deleteStaffPayment('${escapeHtml(payment.id)}')">Delete</button>
-                </div>
-              </div>
-            `
-          )
-          .join("")
-      : `<div class="empty-state">No payroll history recorded yet.</div>`;
+    const paymentHistory = Array.isArray(staff.payment_history) ? staff.payment_history : [];
+    list.innerHTML = `
+      <div class="staff-history-head">
+        <div>
+          <strong>Payroll history</strong>
+          <span>${paymentHistory.length} entr${paymentHistory.length === 1 ? "y" : "ies"} available</span>
+        </div>
+        <span class="inline-badge">${paymentHistory.length ? "Newest records shown first" : "Waiting for first payment"}</span>
+      </div>
+      ${
+        paymentHistory.length
+          ? paymentHistory
+              .map(
+                (payment, index) => `
+                  <article class="history-item staff-history-item">
+                    <div class="staff-history-top">
+                      <div>
+                        <div class="staff-history-date">Payment ${index + 1} · ${escapeHtml(formatDate(payment.paid_at))}</div>
+                        <div class="staff-history-meta">${escapeHtml(payment.method || "Method not set")}</div>
+                      </div>
+                      <div class="staff-history-amount">${escapeHtml(formatCurrency(payment.amount, payment.currency))}</div>
+                    </div>
+                    <div class="staff-history-grid">
+                      <span><b>Reference</b>${escapeHtml(payment.reference || "No reference")}</span>
+                      <span><b>Notes</b>${escapeHtml(payment.notes || "No note")}</span>
+                    </div>
+                    <div class="table-actions space-top">
+                      <button type="button" class="row-btn" onclick="editStaffPayment('${escapeHtml(payment.id)}')">Edit</button>
+                      <button type="button" class="row-btn warn" onclick="deleteStaffPayment('${escapeHtml(payment.id)}')">Delete</button>
+                    </div>
+                  </article>
+                `
+              )
+              .join("")
+          : `<div class="empty-state staff-history-empty">No payroll history recorded yet.</div>`
+      }
+    `;
     renderStaffIncrementList(staff);
   }
 
@@ -775,6 +795,12 @@
     if (state.staff.selectedId && !currentStaffMember()) {
       state.staff.selectedId = null;
     }
+    if (!state.staff.selectedId) {
+      state.staff.selectedId = state.staff.snapshot.staff?.[0]?.id || null;
+    }
+    fillStaffForm(currentStaffMember());
+    resetStaffPaymentForm();
+    resetStaffIncrementForm();
     renderStaffList();
     renderStaffFocusCard();
     applyPendingStaffFocus();
@@ -937,6 +963,11 @@
         throw new Error(payload.error || "Unable to save the payroll payment.");
       }
       state.staff.snapshot = payload.data;
+      const updatedStaff = (state.staff.snapshot.staff || []).find((item) => item.id === staff.id);
+      if (updatedStaff) {
+        state.staff.selectedId = updatedStaff.id;
+        fillStaffForm(updatedStaff);
+      }
       renderStaffList();
       renderStaffFocusCard();
       resetStaffPaymentForm();
@@ -966,6 +997,11 @@
         throw new Error(payload.error || "Unable to delete the payroll entry.");
       }
       state.staff.snapshot = payload.data;
+      const updatedStaff = (state.staff.snapshot.staff || []).find((item) => item.id === staff.id);
+      if (updatedStaff) {
+        state.staff.selectedId = updatedStaff.id;
+        fillStaffForm(updatedStaff);
+      }
       renderStaffList();
       renderStaffFocusCard();
       resetStaffPaymentForm();

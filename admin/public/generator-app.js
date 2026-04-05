@@ -22,6 +22,7 @@
     "about_body",
     "principal_name",
     "principal_role",
+    "principal_image_url",
     "principal_message",
     "admissions_title",
     "admissions_body",

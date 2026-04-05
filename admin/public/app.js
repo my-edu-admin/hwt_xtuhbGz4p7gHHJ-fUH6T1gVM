@@ -74,10 +74,10 @@ const APP_LABELS = {
   ids: "ID Manager",
   backup: "Backup Vault"
 };
-const LOCATION_CATALOG = globalThis.ADMIN_LOCATION_CATALOG || { provinces: [], zones: [], districts: [] };
-const PROVINCES = Array.isArray(LOCATION_CATALOG.provinces) ? LOCATION_CATALOG.provinces : [];
-const ZONES = Array.isArray(LOCATION_CATALOG.zones) ? LOCATION_CATALOG.zones : [];
-const DISTRICT_CATALOG = Array.isArray(LOCATION_CATALOG.districts) ? LOCATION_CATALOG.districts : [];
+const ADMIN_LOCATION_DATA = globalThis.ADMIN_LOCATION_CATALOG || { provinces: [], zones: [], districts: [] };
+const PROVINCES = Array.isArray(ADMIN_LOCATION_DATA.provinces) ? ADMIN_LOCATION_DATA.provinces : [];
+const ZONES = Array.isArray(ADMIN_LOCATION_DATA.zones) ? ADMIN_LOCATION_DATA.zones : [];
+const DISTRICT_CATALOG = Array.isArray(ADMIN_LOCATION_DATA.districts) ? ADMIN_LOCATION_DATA.districts : [];
 const PROVINCE_NAMES = Object.fromEntries(PROVINCES.map((province) => [String(province.id), String(province.name)]));
 const ZONE_NAMES = Object.fromEntries(ZONES.map((zone) => [String(zone.id), String(zone.name)]));
 const LOCATION_TOTALS = Object.freeze({
@@ -86,6 +86,7 @@ const LOCATION_TOTALS = Object.freeze({
   districts: DISTRICT_CATALOG.length
 });
 const NEPAL_LOCATION_MINIMUMS = Object.freeze({
+  provinces: 7,
   zones: 14,
   districts: 77
 });
@@ -187,7 +188,10 @@ let loadingHideTimer = 0;
 let adminPaneResizeObserver = null;
 let adminPaneSyncFrame = 0;
 let desktopIconDrag = null;
+let desktopIconLayoutFrame = 0;
+let desktopIconResizeObserver = null;
 const DESKTOP_ICON_STORAGE_KEY = "edudata-admin-desktop-icons";
+const DESKTOP_ICON_DRAG_THRESHOLD = 6;
 const DESKTOP_ICON_GRID = Object.freeze({
   left: 18,
   top: 18,
@@ -645,27 +649,53 @@ function initDesktopIcons() {
     return;
   }
 
-  const savedLayout = readDesktopIconLayout();
-  applyDesktopIconLayout(icons, savedLayout, workspace);
+  const queueLayout = () => {
+    if (window.innerWidth <= 760) {
+      return;
+    }
+    queueDesktopIconLayout(icons, workspace);
+  };
+
+  queueLayout();
   icons.forEach((icon) => {
+    const inlineAction = icon.getAttribute("onclick");
+    const actionMatch = String(inlineAction || "").match(/^\s*([A-Za-z_$][\w$]*)\s*\(\s*\)\s*;?\s*$/);
+    if (actionMatch?.[1]) {
+      icon.dataset.desktopAction = actionMatch[1];
+      icon.removeAttribute("onclick");
+    }
+
     icon.addEventListener("pointerdown", beginDesktopIconDrag);
     icon.addEventListener("click", (event) => {
       if (icon.dataset.suppressClick === "true") {
         event.preventDefault();
         event.stopPropagation();
+        event.stopImmediatePropagation();
         icon.dataset.suppressClick = "false";
+        return;
+      }
+
+      const action = resolveDesktopIconAction(icon);
+      if (action) {
+        event.preventDefault();
+        action();
       }
     });
   });
 
   document.addEventListener("pointermove", moveDesktopIconDrag);
   document.addEventListener("pointerup", endDesktopIconDrag);
-  window.addEventListener("resize", () => {
-    if (window.innerWidth <= 760) {
-      return;
-    }
-    applyDesktopIconLayout(icons, readDesktopIconLayout(), workspace);
-  });
+  document.addEventListener("pointercancel", endDesktopIconDrag);
+  window.addEventListener("load", queueLayout);
+  window.addEventListener("resize", queueLayout);
+
+  if ("ResizeObserver" in window) {
+    desktopIconResizeObserver?.disconnect();
+    desktopIconResizeObserver = new ResizeObserver(() => {
+      queueLayout();
+    });
+    desktopIconResizeObserver.observe(workspace);
+  }
 }
 
 function readDesktopIconLayout() {
@@ -682,22 +712,109 @@ function writeDesktopIconLayout(layout) {
   } catch {}
 }
 
-function applyDesktopIconLayout(icons, layout, workspace) {
-  const bounds = workspace.getBoundingClientRect();
-  icons.forEach((icon, index) => {
-    const key = icon.dataset.desktopIcon || `icon-${index}`;
-    const defaultPosition = {
-      left: DESKTOP_ICON_GRID.left,
-      top: DESKTOP_ICON_GRID.top + index * DESKTOP_ICON_GRID.height
-    };
-    const nextPosition = clampDesktopIconPosition(layout?.[key] || defaultPosition, bounds);
-    icon.style.left = `${nextPosition.left}px`;
-    icon.style.top = `${nextPosition.top}px`;
+function resolveDesktopIconAction(icon) {
+  const actionName = icon?.dataset?.desktopAction || "";
+  const action = actionName ? globalThis[actionName] : null;
+  return typeof action === "function" ? action : null;
+}
+
+function queueDesktopIconLayout(icons, workspace, attempts = 0) {
+  if (desktopIconLayoutFrame) {
+    return;
+  }
+
+  desktopIconLayoutFrame = window.requestAnimationFrame(() => {
+    desktopIconLayoutFrame = 0;
+    const bounds = workspace.getBoundingClientRect();
+    if (!hasUsableDesktopIconBounds(bounds)) {
+      if (attempts < 12) {
+        queueDesktopIconLayout(icons, workspace, attempts + 1);
+      }
+      return;
+    }
+
+    applyDesktopIconLayout(icons, readDesktopIconLayout(), bounds);
   });
 }
 
+function hasUsableDesktopIconBounds(bounds) {
+  return (
+    Number(bounds?.width) >= DESKTOP_ICON_GRID.iconWidth + DESKTOP_ICON_GRID.left + 12 &&
+    Number(bounds?.height) >= DESKTOP_ICON_GRID.iconHeight + DESKTOP_ICON_GRID.top + 12
+  );
+}
+
+function getDefaultDesktopIconPosition(index) {
+  return {
+    left: DESKTOP_ICON_GRID.left,
+    top: DESKTOP_ICON_GRID.top + index * DESKTOP_ICON_GRID.height
+  };
+}
+
+function reserveDesktopIconPosition(position, occupiedPositions) {
+  occupiedPositions.add(`${position.left}:${position.top}`);
+  return position;
+}
+
+function findNextDesktopIconPosition(occupiedPositions, bounds) {
+  const maxLeft = Math.max(DESKTOP_ICON_GRID.left, (bounds?.width || 0) - DESKTOP_ICON_GRID.iconWidth - 12);
+  const maxTop = Math.max(DESKTOP_ICON_GRID.top, (bounds?.height || 0) - DESKTOP_ICON_GRID.iconHeight - 12);
+
+  for (let left = DESKTOP_ICON_GRID.left; left <= maxLeft; left += DESKTOP_ICON_GRID.width) {
+    for (let top = DESKTOP_ICON_GRID.top; top <= maxTop; top += DESKTOP_ICON_GRID.height) {
+      const nextPosition = { left, top };
+      const key = `${nextPosition.left}:${nextPosition.top}`;
+      if (!occupiedPositions.has(key)) {
+        return reserveDesktopIconPosition(nextPosition, occupiedPositions);
+      }
+    }
+  }
+
+  return reserveDesktopIconPosition(
+    {
+      left: DESKTOP_ICON_GRID.left,
+      top: DESKTOP_ICON_GRID.top
+    },
+    occupiedPositions
+  );
+}
+
+function resolveDesktopIconPosition(savedPosition, defaultPosition, bounds, occupiedPositions) {
+  const preferredPosition = snapDesktopIconPosition(
+    clampDesktopIconPosition(savedPosition || defaultPosition, bounds),
+    bounds
+  );
+  const preferredKey = `${preferredPosition.left}:${preferredPosition.top}`;
+  if (!occupiedPositions.has(preferredKey)) {
+    return reserveDesktopIconPosition(preferredPosition, occupiedPositions);
+  }
+
+  const defaultSlot = snapDesktopIconPosition(clampDesktopIconPosition(defaultPosition, bounds), bounds);
+  const defaultKey = `${defaultSlot.left}:${defaultSlot.top}`;
+  if (!occupiedPositions.has(defaultKey)) {
+    return reserveDesktopIconPosition(defaultSlot, occupiedPositions);
+  }
+
+  return findNextDesktopIconPosition(occupiedPositions, bounds);
+}
+
+function applyDesktopIconLayout(icons, layout, bounds) {
+  const occupiedPositions = new Set();
+  const normalizedLayout = {};
+  icons.forEach((icon, index) => {
+    const key = icon.dataset.desktopIcon || `icon-${index}`;
+    const defaultPosition = getDefaultDesktopIconPosition(index);
+    const nextPosition = resolveDesktopIconPosition(layout?.[key], defaultPosition, bounds, occupiedPositions);
+    normalizedLayout[key] = nextPosition;
+    icon.style.left = `${nextPosition.left}px`;
+    icon.style.top = `${nextPosition.top}px`;
+  });
+
+  writeDesktopIconLayout(normalizedLayout);
+}
+
 function beginDesktopIconDrag(event) {
-  if (window.innerWidth <= 760) {
+  if (window.innerWidth <= 760 || event.button !== 0) {
     return;
   }
 
@@ -714,14 +831,22 @@ function beginDesktopIconDrag(event) {
     workspace,
     offsetX: event.clientX - iconRect.left,
     offsetY: event.clientY - iconRect.top,
+    startClientX: event.clientX,
+    startClientY: event.clientY,
+    pointerId: event.pointerId,
     moved: false
   };
-  icon.classList.add("dragging");
   icon.setPointerCapture?.(event.pointerId);
 }
 
 function moveDesktopIconDrag(event) {
   if (!desktopIconDrag) {
+    return;
+  }
+
+  const deltaX = event.clientX - desktopIconDrag.startClientX;
+  const deltaY = event.clientY - desktopIconDrag.startClientY;
+  if (!desktopIconDrag.moved && Math.hypot(deltaX, deltaY) < DESKTOP_ICON_DRAG_THRESHOLD) {
     return;
   }
 
@@ -735,17 +860,28 @@ function moveDesktopIconDrag(event) {
     workspaceRect
   );
 
+  if (!desktopIconDrag.moved) {
+    icon.classList.add("dragging");
+  }
   desktopIconDrag.moved = true;
   icon.style.left = `${nextPosition.left}px`;
   icon.style.top = `${nextPosition.top}px`;
 }
 
-function endDesktopIconDrag() {
+function endDesktopIconDrag(event) {
   if (!desktopIconDrag) {
     return;
   }
 
   const { icon, key, workspace } = desktopIconDrag;
+  icon.releasePointerCapture?.(desktopIconDrag.pointerId ?? event?.pointerId);
+  icon.classList.remove("dragging");
+  if (!desktopIconDrag.moved) {
+    icon.dataset.suppressClick = "false";
+    desktopIconDrag = null;
+    return;
+  }
+
   const workspaceRect = workspace.getBoundingClientRect();
   const snappedPosition = snapDesktopIconPosition(
     {
@@ -757,7 +893,6 @@ function endDesktopIconDrag() {
 
   icon.style.left = `${snappedPosition.left}px`;
   icon.style.top = `${snappedPosition.top}px`;
-  icon.classList.remove("dragging");
   icon.dataset.suppressClick = desktopIconDrag.moved ? "true" : "false";
   const layout = readDesktopIconLayout();
   layout[key] = snappedPosition;
@@ -933,6 +1068,9 @@ function updateLocationCatalogSummary() {
 
 function validateLocationCatalogCoverage() {
   const issues = [];
+  if (LOCATION_TOTALS.provinces < NEPAL_LOCATION_MINIMUMS.provinces) {
+    issues.push(`provinces: expected at least ${NEPAL_LOCATION_MINIMUMS.provinces}, found ${LOCATION_TOTALS.provinces}`);
+  }
   if (LOCATION_TOTALS.zones < NEPAL_LOCATION_MINIMUMS.zones) {
     issues.push(`zones: expected at least ${NEPAL_LOCATION_MINIMUMS.zones}, found ${LOCATION_TOTALS.zones}`);
   }

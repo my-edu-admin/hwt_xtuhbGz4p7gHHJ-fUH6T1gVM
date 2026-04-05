@@ -6,6 +6,7 @@ const { buildWebsitePages, buildWebsiteStyles } = require("./generator-website")
 const {
   cleanStringArray,
   ensureArray,
+  meaningfulStringOrDefault,
   normalizeFloat,
   normalizeHexColor,
   normalizeInteger,
@@ -171,7 +172,7 @@ function normalizeBusinessRecord(record) {
     zone_name: zoneName,
     province_name: provinceName,
     location_label: stringOrDefault(source.location_label, stringOrDefault(source.location_full_label, derivedLocationLabel)),
-    description: stringOrDefault(source.description),
+    description: meaningfulStringOrDefault(source.description),
     programs: cleanStringArray(source.programs),
     facilities: cleanStringArray(source.facilities),
     level: cleanStringArray(source.level),
@@ -371,27 +372,58 @@ function buildWebsiteOutput(paths, business, websiteData) {
   });
 }
 
+function buildWebsiteHeroSummaryFallback(business) {
+  return `${business.name} presents its academics, campus profile, staff, media, and contact routes in one polished public website for families and learners.`;
+}
+
+function buildWebsiteAboutFallback(business) {
+  return `${business.name} is presented as a focused learning space with clear communication, visible academic strengths, and direct next-step actions for parents and students.`;
+}
+
+function buildLeadershipMessageFallback(business) {
+  return `Welcome to ${business.name}. Use this section to explain the institute philosophy, learner promise, and the atmosphere you want families to feel before visiting.`;
+}
+
+function buildAdmissionsBodyFallback() {
+  return "Explain the admission cycle, required documents, scholarship opportunities, interview flow, and any intake deadlines here.";
+}
+
+function buildCtaBodyFallback() {
+  return "Invite prospective families or learners to call, visit, message, or book an appointment with your admissions team.";
+}
+
+function buildAppIntroFallback(business) {
+  return `${business.name} is presented here as a complete institute profile with dedicated screens for overview, academics, people, media, and public updates.`;
+}
+
+function buildDirectorMessageFallback(business) {
+  return `Use this message to introduce ${business.name}, your academic direction, and the learner experience you want to present inside the app.`;
+}
+
+function buildAdmissionsNoteFallback() {
+  return "Add enrollment rules, deadlines, seat limits, fee guidance, and the next step a student should take.";
+}
+
 function buildDefaultWebsiteData(business) {
   return {
     site_title: business.name,
     hero_kicker: [business.type, business.location_label].filter(Boolean).join(" · "),
     hero_title: business.name,
-    hero_summary:
-      business.description ||
-      `${business.name} presents its learning culture, academic profile, staff, campus media, and public updates across a polished multi-page website.`,
+    hero_summary: meaningfulStringOrDefault(business.description, buildWebsiteHeroSummaryFallback(business), {
+      minLength: 8,
+    }),
     about_title: `Why ${business.name}`,
-    about_body:
-      business.description ||
-      `${business.name} is designed as a focused learning space with clear communication, visible outcomes, and a strong support system for learners and families.`,
+    about_body: meaningfulStringOrDefault(business.description, buildWebsiteAboutFallback(business), {
+      minLength: 8,
+    }),
     principal_name: "",
     principal_role: "Academic Lead",
-    principal_message: `Welcome to ${business.name}. Use this section to introduce the institute philosophy, learner promise, and the atmosphere you want parents and students to feel before visiting.`,
+    principal_image_url: "",
+    principal_message: buildLeadershipMessageFallback(business),
     admissions_title: "Admissions & Enrollment",
-    admissions_body:
-      "Explain the admission cycle, required documents, scholarship opportunities, interview flow, and any intake deadlines here.",
+    admissions_body: buildAdmissionsBodyFallback(),
     cta_title: "Start The Conversation",
-    cta_body:
-      "Invite prospective families or learners to call, visit, message, or book an appointment with your admissions team.",
+    cta_body: buildCtaBodyFallback(),
     primary_cta_label: "Call Admissions",
     primary_cta_url: business.contact.phone[0] ? `tel:${business.contact.phone[0]}` : "",
     secondary_cta_label: "Visit Website",
@@ -425,14 +457,13 @@ function buildDefaultAppData(business) {
     app_name: business.name,
     app_tagline: [business.type, business.location_label].filter(Boolean).join(" · "),
     intro_title: `Inside ${business.name}`,
-    intro_body:
-      business.description ||
-      `${business.name} is presented here as a complete institute profile with multiple app screens for overview, academics, people, media, and public updates.`,
+    intro_body: meaningfulStringOrDefault(business.description, buildAppIntroFallback(business), {
+      minLength: 8,
+    }),
     director_name: "",
     director_role: "Academic Lead",
-    director_message: `Use this message to introduce the institute, your academic direction, and the learner experience you want to present inside the app.`,
-    admissions_note:
-      "Add enrollment rules, deadlines, seat limits, fee guidance, and the next step a student should take.",
+    director_message: buildDirectorMessageFallback(business),
+    admissions_note: buildAdmissionsNoteFallback(),
     contact_headline: "Reach The Institute",
     theme_seed: chooseThemeSeed(business),
     logo_url: business.logo,
@@ -461,16 +492,19 @@ function normalizeWebsiteData(input, business) {
     site_title: stringOrDefault(source.site_title, business.name),
     hero_kicker: stringOrDefault(source.hero_kicker),
     hero_title: stringOrDefault(source.hero_title, business.name),
-    hero_summary: stringOrDefault(source.hero_summary, business.description),
+    hero_summary: meaningfulStringOrDefault(source.hero_summary, meaningfulStringOrDefault(business.description, buildWebsiteHeroSummaryFallback(business), { minLength: 8 }), { minLength: 8 }),
     about_title: stringOrDefault(source.about_title, `Why ${business.name}`),
-    about_body: stringOrDefault(source.about_body, business.description),
+    about_body: meaningfulStringOrDefault(source.about_body, meaningfulStringOrDefault(business.description, buildWebsiteAboutFallback(business), { minLength: 8 }), { minLength: 8 }),
     principal_name: stringOrDefault(source.principal_name),
     principal_role: stringOrDefault(source.principal_role, "Academic Lead"),
-    principal_message: stringOrDefault(source.principal_message),
+    principal_image_url: normalizeUrl(
+      source.principal_image_url || source.principal_image || source.principal_photo_url
+    ),
+    principal_message: meaningfulStringOrDefault(source.principal_message, buildLeadershipMessageFallback(business), { minLength: 8 }),
     admissions_title: stringOrDefault(source.admissions_title, "Admissions & Enrollment"),
-    admissions_body: stringOrDefault(source.admissions_body),
+    admissions_body: meaningfulStringOrDefault(source.admissions_body, buildAdmissionsBodyFallback(), { minLength: 8 }),
     cta_title: stringOrDefault(source.cta_title, "Start The Conversation"),
-    cta_body: stringOrDefault(source.cta_body),
+    cta_body: meaningfulStringOrDefault(source.cta_body, buildCtaBodyFallback(), { minLength: 8 }),
     primary_cta_label: stringOrDefault(source.primary_cta_label, "Contact Institute"),
     primary_cta_url: normalizeUrl(source.primary_cta_url),
     secondary_cta_label: stringOrDefault(source.secondary_cta_label, "Learn More"),
@@ -505,11 +539,11 @@ function normalizeAppData(input, business) {
     app_name: stringOrDefault(source.app_name, business.name),
     app_tagline: stringOrDefault(source.app_tagline),
     intro_title: stringOrDefault(source.intro_title, `Inside ${business.name}`),
-    intro_body: stringOrDefault(source.intro_body, business.description),
+    intro_body: meaningfulStringOrDefault(source.intro_body, meaningfulStringOrDefault(business.description, buildAppIntroFallback(business), { minLength: 8 }), { minLength: 8 }),
     director_name: stringOrDefault(source.director_name),
     director_role: stringOrDefault(source.director_role, "Academic Lead"),
-    director_message: stringOrDefault(source.director_message),
-    admissions_note: stringOrDefault(source.admissions_note),
+    director_message: meaningfulStringOrDefault(source.director_message, buildDirectorMessageFallback(business), { minLength: 8 }),
+    admissions_note: meaningfulStringOrDefault(source.admissions_note, buildAdmissionsNoteFallback(), { minLength: 8 }),
     contact_headline: stringOrDefault(source.contact_headline, "Reach The Institute"),
     theme_seed: normalizeHexColor(source.theme_seed, chooseThemeSeed(business)),
     logo_url: normalizeUrl(source.logo_url || business.logo),
@@ -557,7 +591,7 @@ function normalizeStaffList(input) {
       name: stringOrDefault(item?.name),
       role: stringOrDefault(item?.role),
       image: normalizeUrl(item?.image),
-      bio: stringOrDefault(item?.bio),
+      bio: meaningfulStringOrDefault(item?.bio),
     }))
     .filter((item) => item.name || item.role || item.image || item.bio);
 }

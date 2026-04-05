@@ -2,8 +2,8 @@
   "app_name": "Shree Sagarmatha Vidhya mandir",
   "app_tagline": "School · Kapilvastu, Lumbini",
   "intro_title": "Shree Sagarmatha Vidhya mandir",
-  "intro_body": "nothing",
-  "director_name": "Chhatra Mani Pandey",
+  "intro_body": "Shree Sagarmatha Vidhya mandir is presented as a focused learning space with clear communication, visible academic strengths, and direct next-step actions for parents and students.",
+  "director_name": "",
   "director_role": "Academic Lead",
   "director_message": "Welcome to Shree Sagarmatha Vidhya mandir. Use this section to introduce the institute philosophy, learner promise, and the atmosphere you want parents and students to feel before visiting.",
   "admissions_note": "Explain the admission cycle, required documents, scholarship opportunities, interview flow, and any intake deadlines here.",
@@ -21,15 +21,9 @@
       "url": "https://youtu.be/9owUCOl8y-0?si=g0haXlX3xCnvn1KN"
     }
   ],
-  "playlists": [
-    {
-      "title": "Education",
-      "url": "https://youtube.com/playlist?list=PLdQpBAmcg9wf709q2SYTEYjCB9BWgnpRL&si=Tvs3Ic9l7IUFObjM",
-      "description": "Qbasic Video"
-    }
-  ],
+  "playlists": [],
   "programs": [
-    "Educati"
+    "Education"
   ],
   "facilities": [
     "Library",
@@ -70,20 +64,20 @@
   "notices": [],
   "staff": [
     {
-      "name": "Chhatra Mani pandey",
+      "name": "Chhatra",
       "role": "Principal",
       "image": "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/8355be2d-343d-4c7a-8bc5-4c5f4a8dbedc.jpg",
-      "bio": "Principal head"
+      "bio": ""
     }
   ],
   "contact": {
     "address": "kapilvastu",
     "phone": "9847557148",
     "email": "vishuallahuk@gmail.com",
-    "website": "https://www.google.com"
+    "website": "https://www.google.com/"
   },
   "social": {
-    "facebook": "https://www.facebook.com/mrbeast/",
+    "facebook": "",
     "instagram": "",
     "youtube": "https://youtu.be/9owUCOl8y-0?si=g0haXlX3xCnvn1KN",
     "twitter": ""
