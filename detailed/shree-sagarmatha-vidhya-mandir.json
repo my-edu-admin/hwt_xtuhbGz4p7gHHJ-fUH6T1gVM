@@ -36,36 +36,6 @@
       "lng": null
     }
   },
-  "registration": {
-    "status": "registered",
-    "confirmation_email_enabled": true,
-    "send_id_card_email": true,
-    "confirmation_email_sent_at": "",
-    "confirmation_email_error": "Configure SMTP host, port, and from address before sending business confirmation emails.",
-    "created_at": "2026-04-04T09:38:08.473Z",
-    "updated_at": "2026-04-04T09:38:08.473Z"
-  },
-  "institution_head": {
-    "name": "Principal",
-    "role": "Institution Head",
-    "email": "vishuallahuk@gmail.com",
-    "phone": "9847557148",
-    "notes": ""
-  },
-  "id_card": {
-    "business_id": "xlatyxyl",
-    "title": "Institution ID Card",
-    "subtitle": "Business registration profile",
-    "template": "default",
-    "holder_name": "Principal",
-    "holder_role": "Institution Head",
-    "photo_url": "",
-    "notes": "This is issued for shree sagarmatha vidhya mandir",
-    "status": "complete",
-    "generated_at": "2026-04-04T09:07:06.369Z",
-    "updated_at": "2026-04-04T11:14:58.180Z",
-    "last_sent_at": ""
-  },
   "subscription": {
     "plan": "Yearly",
     "amount": 1080,
@@ -78,9 +48,9 @@
     "starts_at": "2026-04-03T00:00:00.000Z",
     "expires_at": "2027-04-03T00:00:00.000Z",
     "payment_status": "active",
-    "last_updated_at": "2026-04-04T09:38:08.473Z"
+    "last_updated_at": "2026-04-04T06:16:32.021Z"
   },
-  "updated_at": "2026-04-04T11:14:58.180Z",
+  "updated_at": "2026-04-04T06:16:32.021Z",
   "created_at": "2026-04-03T10:20:59.997Z",
   "description": "nothing",
   "stats": {
@@ -113,6 +83,5 @@
     "instagram": "",
     "youtube": "https://youtu.be/9owUCOl8y-0?si=g0haXlX3xCnvn1KN",
     "twitter": ""
-  },
-  "programs": []
+  }
 }
