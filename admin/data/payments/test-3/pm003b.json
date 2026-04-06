@@ -1,0 +1,15 @@
+{
+  "id": "pm003b",
+  "slug": "test-3",
+  "plan": "6 Months",
+  "amount": 570,
+  "currency": "NPR",
+  "paid_at": "2026-03-03T05:30:00.000Z",
+  "starts_at": "2026-03-03T05:30:00.000Z",
+  "expires_at": "2026-09-03T05:30:00.000Z",
+  "payment_method": "Khalti",
+  "payment_reference": "REF-0003-B",
+  "notes": "Active 6 Months renewal record for Summit Hetauda Technical Institute",
+  "created_at": "2026-03-03T05:30:00.000Z",
+  "updated_at": "2026-03-03T05:30:00.000Z"
+}

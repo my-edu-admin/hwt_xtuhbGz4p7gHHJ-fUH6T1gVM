@@ -9,4 +9,4 @@ user/node_modules/
 user/dist/
 backup/
 user_out/
-admin/data/
+# admin/data/
