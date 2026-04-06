@@ -3,18 +3,16 @@
   "slug": "test-5",
   "name": "Crest Palpa Skills Training Center",
   "name_np": "Nepali Crest Palpa Skills Training Center",
-  "type": "Training Institute",
+  "type": "",
   "level": [
-    "Certificate",
     "Diploma"
   ],
   "field": [
-    "IT",
-    "Language",
     "Design"
   ],
   "affiliation": "Private",
   "district": "Palpa",
+  "zone": "lumbini",
   "province": "5",
   "is_verified": true,
   "is_certified": false,
@@ -27,6 +25,48 @@
   ],
   "logo": "https://dummyimage.com/360x360/fff2bf/5b4210.png?text=CP",
   "cover": "https://dummyimage.com/1600x980/fff2bf/5b4210.jpg?text=Crest%20Palpa%20Skills%20Training%20Center",
+  "contact": {
+    "address": "Ward 5, Scholars Road, Palpa, Lumbini, Nepal",
+    "phone": [
+      "9810000685"
+    ],
+    "email": "info@test-5.edu.np",
+    "website": "https://www.test-5.edu.np",
+    "map": {
+      "lat": 27.764,
+      "lng": 83.364
+    }
+  },
+  "registration": {
+    "status": "registered",
+    "confirmation_email_enabled": false,
+    "send_id_card_email": false,
+    "confirmation_email_sent_at": "",
+    "confirmation_email_error": "",
+    "created_at": "2026-04-06T17:47:51.229Z",
+    "updated_at": "2026-04-06T17:47:51.229Z"
+  },
+  "institution_head": {
+    "name": "",
+    "role": "Institution Head",
+    "email": "info@test-5.edu.np",
+    "phone": "9810000685",
+    "notes": ""
+  },
+  "id_card": {
+    "business_id": "biz-005",
+    "title": "Institution ID Card",
+    "subtitle": "Business registration profile",
+    "template": "default",
+    "holder_name": "",
+    "holder_role": "Institution Head",
+    "photo_url": "",
+    "notes": "",
+    "status": "draft",
+    "generated_at": "2026-04-06T17:47:51.229Z",
+    "updated_at": "2026-04-06T17:47:51.229Z",
+    "last_sent_at": ""
+  },
   "subscription": {
     "plan": "Yearly",
     "amount": 1080,
@@ -35,28 +75,15 @@
     "payment_reference": "REF-0005",
     "notes": "Demo Yearly subscription for Crest Palpa Skills Training Center",
     "auto_renew": false,
-    "paid_at": "2026-03-05T05:30:00.000Z",
+    "paid_at": "2026-03-05T00:00:00.000Z",
     "starts_at": "2026-03-05T05:30:00.000Z",
     "expires_at": "2027-03-05T05:30:00.000Z",
     "payment_status": "active",
-    "last_updated_at": "2026-03-05T05:30:00.000Z"
+    "last_updated_at": "2026-04-06T17:47:51.229Z"
   },
-  "updated_at": "2026-03-05T05:30:00.000Z",
+  "updated_at": "2026-04-06T17:47:51.229Z",
   "created_at": "2025-01-05T05:30:00.000Z",
   "description": "Crest Palpa Skills Training Center is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and active payment history so the entire directory flow can be exercised without manual entry.",
-  "contact": {
-    "address": "Ward 5, Scholars Road, Palpa, Lumbini, Nepal",
-    "phone": [
-      "9810000685",
-      "01-400085"
-    ],
-    "email": "info@test-5.edu.np",
-    "website": "www.test-5.edu.np",
-    "map": {
-      "lat": 27.764,
-      "lng": 83.364
-    }
-  },
   "stats": {
     "students": 455,
     "faculty": 44,
@@ -78,25 +105,12 @@
     ]
   },
   "facilities": [
-    "Mac Lab",
-    "Studio Room",
-    "Wi-Fi Campus",
-    "Career Desk",
-    "Cafe",
-    "Student Counseling",
-    "Scholarship Desk"
+    "Wi-Fi Campus"
   ],
   "social": {
-    "facebook": "facebook.com/test-5",
-    "instagram": "instagram.com/test-5",
-    "youtube": "youtube.com/@test-5",
-    "twitter": "x.com/test-5"
-  },
-  "programs": [
-    "Full Stack Bootcamp",
-    "English Communication",
-    "Graphic Design",
-    "Digital Marketing",
-    "Career Coaching"
-  ]
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "twitter": ""
+  }
 }
