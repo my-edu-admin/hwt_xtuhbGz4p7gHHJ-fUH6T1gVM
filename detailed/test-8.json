@@ -32,8 +32,8 @@
     "amount": 1080,
     "currency": "NPR",
     "payment_method": "Bank Transfer",
-    "payment_reference": "REF-0008",
-    "notes": "Demo Yearly subscription for Valley Itahari National College",
+    "payment_reference": "REF-0008-B",
+    "notes": "Active Yearly renewal record for Valley Itahari National College",
     "auto_renew": true,
     "paid_at": "2026-03-08T05:30:00.000Z",
     "starts_at": "2026-03-08T05:30:00.000Z",
@@ -43,7 +43,7 @@
   },
   "updated_at": "2026-03-08T05:30:00.000Z",
   "created_at": "2025-01-08T05:30:00.000Z",
-  "description": "Valley Itahari National College is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and active payment history so the entire directory flow can be exercised without manual entry.",
+  "description": "Valley Itahari National College is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
   "contact": {
     "address": "Ward 8, North Avenue, Itahari, Koshi, Nepal",
     "phone": [

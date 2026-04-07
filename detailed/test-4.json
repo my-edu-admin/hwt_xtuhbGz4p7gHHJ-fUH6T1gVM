@@ -27,6 +27,23 @@
   ],
   "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=HS",
   "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Horizon%20Syangja%20Metropolitan%20University",
+  "subscription": {
+    "plan": "monthly",
+    "amount": 100,
+    "currency": "NPR",
+    "payment_method": "Bank Transfer",
+    "payment_reference": "REF-0004-B",
+    "notes": "Expired monthly renewal record for Horizon Syangja Metropolitan University",
+    "auto_renew": true,
+    "paid_at": "2026-03-04T05:30:00.000Z",
+    "starts_at": "2026-03-04T05:30:00.000Z",
+    "expires_at": "2026-04-04T05:30:00.000Z",
+    "payment_status": "expired",
+    "last_updated_at": "2026-03-04T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-04T05:30:00.000Z",
+  "created_at": "2025-01-04T05:30:00.000Z",
+  "description": "Horizon Syangja Metropolitan University is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
   "contact": {
     "address": "Ward 4, Innovation Lane, Syangja, Gandaki, Nepal",
     "phone": [
@@ -40,23 +57,6 @@
       "lng": 84.096
     }
   },
-  "subscription": {
-    "plan": "Yearly",
-    "amount": 1080,
-    "currency": "NPR",
-    "payment_method": "Bank Transfer",
-    "payment_reference": "",
-    "notes": "Demo monthly subscription for Horizon Syangja Metropolitan University",
-    "auto_renew": true,
-    "paid_at": "2026-04-04T00:00:00.000Z",
-    "starts_at": "2026-04-04T05:30:00.000Z",
-    "expires_at": "2027-04-04T05:30:00.000Z",
-    "payment_status": "active",
-    "last_updated_at": "2026-04-04T04:58:15.827Z"
-  },
-  "updated_at": "2026-04-04T04:58:15.827Z",
-  "created_at": "2025-01-04T05:30:00.000Z",
-  "description": "Horizon Syangja Metropolitan University is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and active payment history so the entire directory flow can be exercised without manual entry.",
   "stats": {
     "students": 434,
     "faculty": 40,
