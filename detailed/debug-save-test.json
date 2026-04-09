@@ -1,0 +1,64 @@
+{
+  "id": "6doh03bs",
+  "slug": "debug-save-test",
+  "name": "Debug Save Test",
+  "name_np": "",
+  "type": "School",
+  "level": [],
+  "field": [],
+  "affiliation": "",
+  "district": "Kathmandu",
+  "zone": "bagmati",
+  "province": "3",
+  "is_verified": false,
+  "is_certified": false,
+  "tags": [],
+  "logo": "",
+  "cover": "",
+  "contact": {
+    "address": "",
+    "phone": [],
+    "email": "test@example.com",
+    "website": "",
+    "map": {
+      "lat": null,
+      "lng": null
+    }
+  },
+  "subscription": {
+    "plan": "monthly",
+    "amount": 100,
+    "currency": "NPR",
+    "payment_method": "",
+    "payment_reference": "",
+    "notes": "",
+    "auto_renew": false,
+    "paid_at": "",
+    "starts_at": "",
+    "expires_at": "",
+    "payment_status": "pending",
+    "last_updated_at": "2026-04-09T15:33:40.591Z"
+  },
+  "updated_at": "2026-04-09T15:33:40.591Z",
+  "created_at": "2026-04-09T15:33:40.591Z",
+  "description": "",
+  "stats": {
+    "students": null,
+    "faculty": null,
+    "rating": null,
+    "programs_count": null
+  },
+  "media": {
+    "logo": "",
+    "cover": "",
+    "gallery": [],
+    "videos": []
+  },
+  "facilities": [],
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "twitter": ""
+  }
+}
