@@ -1,0 +1,103 @@
+{
+  "id": "biz-079",
+  "slug": "test-79",
+  "name": "Brighton Birgunj Scholars School",
+  "name_np": "Nepali Brighton Birgunj Scholars School",
+  "type": "School",
+  "level": [
+    "Pre-School",
+    "School",
+    "+2"
+  ],
+  "field": [
+    "Science",
+    "Management",
+    "Humanities"
+  ],
+  "affiliation": "NEB",
+  "district": "Birgunj",
+  "province": "2",
+  "is_verified": true,
+  "is_certified": false,
+  "tags": [
+    "school",
+    "day-school",
+    "student-life",
+    "birgunj",
+    "madhesh"
+  ],
+  "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=BB",
+  "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Brighton%20Birgunj%20Scholars%20School",
+  "subscription": {
+    "plan": "monthly",
+    "amount": 100,
+    "currency": "NPR",
+    "payment_method": "Khalti",
+    "payment_reference": "REF-0079-B",
+    "notes": "Active monthly renewal record for Brighton Birgunj Scholars School",
+    "auto_renew": false,
+    "paid_at": "2026-03-07T05:30:00.000Z",
+    "starts_at": "2026-03-07T05:30:00.000Z",
+    "expires_at": "2026-04-07T05:30:00.000Z",
+    "payment_status": "expired",
+    "last_updated_at": "2026-03-25T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-25T05:30:00.000Z",
+  "created_at": "2025-01-04T05:30:00.000Z",
+  "description": "Brighton Birgunj Scholars School is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
+  "contact": {
+    "address": "Ward 7, Green Hills Road, Birgunj, Madhesh, Nepal",
+    "phone": [
+      "9810010823",
+      "01-401343"
+    ],
+    "email": "info@test-79.edu.np",
+    "website": "www.test-79.edu.np",
+    "map": {
+      "lat": 26.708,
+      "lng": 86.026
+    }
+  },
+  "stats": {
+    "students": 2009,
+    "faculty": 32,
+    "rating": 4.4,
+    "programs_count": 5
+  },
+  "media": {
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=BB",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Brighton%20Birgunj%20Scholars%20School",
+    "gallery": [
+      "https://dummyimage.com/1400x920/d8e8ff/163152.jpg?text=Brighton%20Birgunj%20Scholars%20School%20Main%20Block",
+      "https://dummyimage.com/1400x920/ffe4d2/4b2e1f.jpg?text=Brighton%20Birgunj%20Scholars%20School%20Learning%20Space",
+      "https://dummyimage.com/1400x920/f3f6fb/163152.jpg?text=Brighton%20Birgunj%20Scholars%20School%20Student%20Life",
+      "https://drive.google.com/drive/folders/gallery-test-79-folder"
+    ],
+    "videos": [
+      "https://vimeo.com/76979871",
+      "https://vimeo.com/22439234"
+    ]
+  },
+  "facilities": [
+    "Library",
+    "Science Lab",
+    "Computer Lab",
+    "Playground",
+    "Transport",
+    "Student Counseling",
+    "Scholarship Desk"
+  ],
+  "social": {
+    "facebook": "facebook.com/test-79",
+    "instagram": "instagram.com/test-79",
+    "youtube": "youtube.com/@test-79",
+    "twitter": "x.com/test-79"
+  },
+  "programs": [
+    "Montessori Program",
+    "Secondary Curriculum",
+    "+2 Science",
+    "+2 Management",
+    "ECA Leadership Track"
+  ]
+}

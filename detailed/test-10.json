@@ -1,0 +1,102 @@
+{
+  "id": "biz-010",
+  "slug": "test-10",
+  "name": "Pioneer Chitwan Metropolitan University",
+  "name_np": "Nepali Pioneer Chitwan Metropolitan University",
+  "type": "University",
+  "level": [
+    "Bachelor",
+    "Master"
+  ],
+  "field": [
+    "Engineering",
+    "Business",
+    "Law"
+  ],
+  "affiliation": "KU",
+  "district": "Chitwan",
+  "province": "3",
+  "is_verified": true,
+  "is_certified": false,
+  "tags": [
+    "university",
+    "research",
+    "residential",
+    "chitwan",
+    "bagmati"
+  ],
+  "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=PC",
+  "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University",
+  "subscription": {
+    "plan": "monthly",
+    "amount": 100,
+    "currency": "NPR",
+    "payment_method": "eSewa",
+    "payment_reference": "REF-0010-B",
+    "notes": "Active monthly renewal record for Pioneer Chitwan Metropolitan University",
+    "auto_renew": true,
+    "paid_at": "2026-03-10T05:30:00.000Z",
+    "starts_at": "2026-03-10T05:30:00.000Z",
+    "expires_at": "2026-04-10T05:30:00.000Z",
+    "payment_status": "active",
+    "last_updated_at": "2026-03-10T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-10T05:30:00.000Z",
+  "created_at": "2025-01-10T05:30:00.000Z",
+  "description": "Pioneer Chitwan Metropolitan University is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
+  "contact": {
+    "address": "Ward 1, Vision Square, Chitwan, Bagmati, Nepal",
+    "phone": [
+      "9810001370",
+      "01-400170"
+    ],
+    "email": "info@test-10.edu.np",
+    "website": "www.test-10.edu.np",
+    "map": {
+      "lat": 27.72,
+      "lng": 85.214
+    }
+  },
+  "stats": {
+    "students": 560,
+    "faculty": 64,
+    "rating": 4.7,
+    "programs_count": 5
+  },
+  "media": {
+    "logo": "https://dummyimage.com/360x360/f4e6ff/38214b.png?text=PC",
+    "cover": "https://dummyimage.com/1600x980/f4e6ff/38214b.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University",
+    "gallery": [
+      "https://dummyimage.com/1400x920/f4e6ff/38214b.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University%20Main%20Block",
+      "https://dummyimage.com/1400x920/fff2bf/5b4210.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University%20Learning%20Space",
+      "https://dummyimage.com/1400x920/f3f6fb/38214b.jpg?text=Pioneer%20Chitwan%20Metropolitan%20University%20Student%20Life",
+      "https://drive.google.com/drive/folders/gallery-test-10-folder"
+    ],
+    "videos": [
+      "https://vimeo.com/22439234",
+      "https://www.youtube.com/watch?v=ysz5S6PUM-U"
+    ]
+  },
+  "facilities": [
+    "Innovation Lab",
+    "Digital Library",
+    "Auditorium",
+    "Research Center",
+    "Hostel",
+    "Student Counseling",
+    "Scholarship Desk"
+  ],
+  "social": {
+    "facebook": "facebook.com/test-10",
+    "instagram": "instagram.com/test-10",
+    "youtube": "youtube.com/@test-10",
+    "twitter": "x.com/test-10"
+  },
+  "programs": [
+    "B.Tech.",
+    "BBA",
+    "LLB",
+    "MBA",
+    "Research and Innovation Hub"
+  ]
+}
