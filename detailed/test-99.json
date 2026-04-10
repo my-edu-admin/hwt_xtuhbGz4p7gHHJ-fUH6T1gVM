@@ -1,0 +1,100 @@
+{
+  "id": "biz-099",
+  "slug": "test-99",
+  "name": "Summit Bhojpur Technical Institute",
+  "name_np": "Nepali Summit Bhojpur Technical Institute",
+  "type": "Polytechnic Institute",
+  "level": [
+    "Diploma"
+  ],
+  "field": [
+    "Civil Engineering",
+    "Computer Engineering",
+    "Health Sciences"
+  ],
+  "affiliation": "CTEVT",
+  "district": "Bhojpur",
+  "province": "1",
+  "is_verified": false,
+  "is_certified": false,
+  "tags": [
+    "technical",
+    "diploma",
+    "hands-on",
+    "bhojpur",
+    "koshi"
+  ],
+  "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=SB",
+  "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Summit%20Bhojpur%20Technical%20Institute",
+  "subscription": {
+    "plan": "6 Months",
+    "amount": 570,
+    "currency": "NPR",
+    "payment_method": "Khalti",
+    "payment_reference": "REF-0099-B",
+    "notes": "Active 6 Months renewal record for Summit Bhojpur Technical Institute",
+    "auto_renew": false,
+    "paid_at": "2026-03-03T05:30:00.000Z",
+    "starts_at": "2026-03-03T05:30:00.000Z",
+    "expires_at": "2026-09-03T05:30:00.000Z",
+    "payment_status": "active",
+    "last_updated_at": "2026-03-18T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-18T05:30:00.000Z",
+  "created_at": "2025-01-24T05:30:00.000Z",
+  "description": "Summit Bhojpur Technical Institute is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
+  "contact": {
+    "address": "Ward 9, Green Hills Road, Bhojpur, Koshi, Nepal",
+    "phone": [
+      "9810013563",
+      "01-401683"
+    ],
+    "email": "info@test-99.edu.np",
+    "website": "www.test-99.edu.np",
+    "map": {
+      "lat": 26.636,
+      "lng": 87.396
+    }
+  },
+  "stats": {
+    "students": 2429,
+    "faculty": 24,
+    "rating": 4.1,
+    "programs_count": 4
+  },
+  "media": {
+    "logo": "https://dummyimage.com/360x360/e2f3df/21482f.png?text=SB",
+    "cover": "https://dummyimage.com/1600x980/e2f3df/21482f.jpg?text=Summit%20Bhojpur%20Technical%20Institute",
+    "gallery": [
+      "https://dummyimage.com/1400x920/e2f3df/21482f.jpg?text=Summit%20Bhojpur%20Technical%20Institute%20Main%20Block",
+      "https://dummyimage.com/1400x920/f4e6ff/38214b.jpg?text=Summit%20Bhojpur%20Technical%20Institute%20Learning%20Space",
+      "https://dummyimage.com/1400x920/f3f6fb/21482f.jpg?text=Summit%20Bhojpur%20Technical%20Institute%20Student%20Life",
+      "https://drive.google.com/drive/folders/gallery-test-99-folder"
+    ],
+    "videos": [
+      "https://vimeo.com/76979871",
+      "https://vimeo.com/22439234"
+    ]
+  },
+  "facilities": [
+    "Workshop",
+    "Hostel",
+    "Project Lab",
+    "Industry Desk",
+    "Library",
+    "Student Counseling",
+    "Scholarship Desk"
+  ],
+  "social": {
+    "facebook": "facebook.com/test-99",
+    "instagram": "instagram.com/test-99",
+    "youtube": "youtube.com/@test-99",
+    "twitter": "x.com/test-99"
+  },
+  "programs": [
+    "Diploma in Civil Engineering",
+    "Diploma in Computer Engineering",
+    "Diploma in Medical Lab Technology",
+    "Industrial Training Lab"
+  ]
+}

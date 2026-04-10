@@ -1,0 +1,103 @@
+{
+  "id": "biz-067",
+  "slug": "test-67",
+  "name": "Summit Baglung Scholars School",
+  "name_np": "Nepali Summit Baglung Scholars School",
+  "type": "School",
+  "level": [
+    "Pre-School",
+    "School",
+    "+2"
+  ],
+  "field": [
+    "Science",
+    "Management",
+    "Humanities"
+  ],
+  "affiliation": "NEB",
+  "district": "Baglung",
+  "province": "4",
+  "is_verified": true,
+  "is_certified": false,
+  "tags": [
+    "school",
+    "day-school",
+    "student-life",
+    "baglung",
+    "gandaki"
+  ],
+  "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=SB",
+  "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Summit%20Baglung%20Scholars%20School",
+  "subscription": {
+    "plan": "monthly",
+    "amount": 100,
+    "currency": "NPR",
+    "payment_method": "Khalti",
+    "payment_reference": "REF-0067-B",
+    "notes": "Active monthly renewal record for Summit Baglung Scholars School",
+    "auto_renew": false,
+    "paid_at": "2026-03-19T05:30:00.000Z",
+    "starts_at": "2026-03-19T05:30:00.000Z",
+    "expires_at": "2026-04-19T05:30:00.000Z",
+    "payment_status": "active",
+    "last_updated_at": "2026-03-13T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-13T05:30:00.000Z",
+  "created_at": "2025-01-17T05:30:00.000Z",
+  "description": "Summit Baglung Scholars School is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
+  "contact": {
+    "address": "Ward 4, Bridgeway, Baglung, Gandaki, Nepal",
+    "phone": [
+      "9810009179",
+      "01-401139"
+    ],
+    "email": "info@test-67.edu.np",
+    "website": "www.test-67.edu.np",
+    "map": {
+      "lat": 28.252,
+      "lng": 83.99
+    }
+  },
+  "stats": {
+    "students": 1757,
+    "faculty": 28,
+    "rating": 4.4,
+    "programs_count": 5
+  },
+  "media": {
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=SB",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Summit%20Baglung%20Scholars%20School",
+    "gallery": [
+      "https://dummyimage.com/1400x920/d8e8ff/163152.jpg?text=Summit%20Baglung%20Scholars%20School%20Main%20Block",
+      "https://dummyimage.com/1400x920/ffe4d2/4b2e1f.jpg?text=Summit%20Baglung%20Scholars%20School%20Learning%20Space",
+      "https://dummyimage.com/1400x920/f3f6fb/163152.jpg?text=Summit%20Baglung%20Scholars%20School%20Student%20Life",
+      "https://drive.google.com/drive/folders/gallery-test-67-folder"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+    ]
+  },
+  "facilities": [
+    "Library",
+    "Science Lab",
+    "Computer Lab",
+    "Playground",
+    "Transport",
+    "Student Counseling",
+    "Scholarship Desk"
+  ],
+  "social": {
+    "facebook": "facebook.com/test-67",
+    "instagram": "instagram.com/test-67",
+    "youtube": "youtube.com/@test-67",
+    "twitter": "x.com/test-67"
+  },
+  "programs": [
+    "Montessori Program",
+    "Secondary Curriculum",
+    "+2 Science",
+    "+2 Management",
+    "ECA Leadership Track"
+  ]
+}

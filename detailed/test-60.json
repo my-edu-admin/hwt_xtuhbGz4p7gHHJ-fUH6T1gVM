@@ -1,0 +1,102 @@
+{
+  "id": "biz-060",
+  "slug": "test-60",
+  "name": "Northfield Parbat Health Sciences College",
+  "name_np": "Nepali Northfield Parbat Health Sciences College",
+  "type": "Nursing College",
+  "level": [
+    "Bachelor",
+    "Master"
+  ],
+  "field": [
+    "Nursing",
+    "Public Health",
+    "Medical Lab"
+  ],
+  "affiliation": "PU",
+  "district": "Parbat",
+  "province": "4",
+  "is_verified": false,
+  "is_certified": false,
+  "tags": [
+    "health",
+    "nursing",
+    "clinical",
+    "parbat",
+    "gandaki"
+  ],
+  "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=NP",
+  "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Northfield%20Parbat%20Health%20Sciences%20College",
+  "subscription": {
+    "plan": "6 Months",
+    "amount": 570,
+    "currency": "NPR",
+    "payment_method": "Bank Transfer",
+    "payment_reference": "REF-0060-B",
+    "notes": "Expired 6 Months renewal record for Northfield Parbat Health Sciences College",
+    "auto_renew": true,
+    "paid_at": "2025-08-12T05:30:00.000Z",
+    "starts_at": "2025-08-12T05:30:00.000Z",
+    "expires_at": "2026-02-12T05:30:00.000Z",
+    "payment_status": "expired",
+    "last_updated_at": "2026-03-06T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-06T05:30:00.000Z",
+  "created_at": "2025-01-10T05:30:00.000Z",
+  "description": "Northfield Parbat Health Sciences College is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
+  "contact": {
+    "address": "Ward 6, Vision Square, Parbat, Gandaki, Nepal",
+    "phone": [
+      "9810008220",
+      "01-401020"
+    ],
+    "email": "info@test-60.edu.np",
+    "website": "www.test-60.edu.np",
+    "map": {
+      "lat": 28.252,
+      "lng": 83.884
+    }
+  },
+  "stats": {
+    "students": 1610,
+    "faculty": 44,
+    "rating": 3.8,
+    "programs_count": 5
+  },
+  "media": {
+    "logo": "https://dummyimage.com/360x360/dff4f7/173a46.png?text=NP",
+    "cover": "https://dummyimage.com/1600x980/dff4f7/173a46.jpg?text=Northfield%20Parbat%20Health%20Sciences%20College",
+    "gallery": [
+      "https://dummyimage.com/1400x920/dff4f7/173a46.jpg?text=Northfield%20Parbat%20Health%20Sciences%20College%20Main%20Block",
+      "https://dummyimage.com/1400x920/d8e8ff/163152.jpg?text=Northfield%20Parbat%20Health%20Sciences%20College%20Learning%20Space",
+      "https://dummyimage.com/1400x920/f3f6fb/173a46.jpg?text=Northfield%20Parbat%20Health%20Sciences%20College%20Student%20Life",
+      "https://drive.google.com/drive/folders/gallery-test-60-folder"
+    ],
+    "videos": [
+      "https://vimeo.com/22439234",
+      "https://www.youtube.com/watch?v=ysz5S6PUM-U"
+    ]
+  },
+  "facilities": [
+    "Simulation Lab",
+    "Library",
+    "Clinical Lab",
+    "Hostel",
+    "Counseling Center",
+    "Student Counseling",
+    "Scholarship Desk"
+  ],
+  "social": {
+    "facebook": "facebook.com/test-60",
+    "instagram": "instagram.com/test-60",
+    "youtube": "youtube.com/@test-60",
+    "twitter": "x.com/test-60"
+  },
+  "programs": [
+    "BSc Nursing",
+    "BPH",
+    "BMLT",
+    "MSc Nursing",
+    "Hospital Internship Desk"
+  ]
+}

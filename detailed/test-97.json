@@ -1,0 +1,103 @@
+{
+  "id": "biz-097",
+  "slug": "test-97",
+  "name": "Everest Jumla Scholars School",
+  "name_np": "Nepali Everest Jumla Scholars School",
+  "type": "School",
+  "level": [
+    "Pre-School",
+    "School",
+    "+2"
+  ],
+  "field": [
+    "Science",
+    "Management",
+    "Humanities"
+  ],
+  "affiliation": "NEB",
+  "district": "Jumla",
+  "province": "6",
+  "is_verified": true,
+  "is_certified": false,
+  "tags": [
+    "school",
+    "day-school",
+    "student-life",
+    "jumla",
+    "karnali"
+  ],
+  "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=EJ",
+  "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Everest%20Jumla%20Scholars%20School",
+  "subscription": {
+    "plan": "monthly",
+    "amount": 100,
+    "currency": "NPR",
+    "payment_method": "Cash",
+    "payment_reference": "REF-0097-B",
+    "notes": "Expired monthly renewal record for Everest Jumla Scholars School",
+    "auto_renew": false,
+    "paid_at": "2026-03-01T05:30:00.000Z",
+    "starts_at": "2026-03-01T05:30:00.000Z",
+    "expires_at": "2026-04-01T05:30:00.000Z",
+    "payment_status": "expired",
+    "last_updated_at": "2026-03-16T05:30:00.000Z"
+  },
+  "updated_at": "2026-03-16T05:30:00.000Z",
+  "created_at": "2025-01-22T05:30:00.000Z",
+  "description": "Everest Jumla Scholars School is a fully populated demo listing created for search, filter, media, and payment testing. It includes academic offerings, facilities, social links, contact data, and payment history stored in files so the directory flow can be exercised without manual entry.",
+  "contact": {
+    "address": "Ward 7, Bridgeway, Jumla, Karnali, Nepal",
+    "phone": [
+      "9810013289",
+      "01-401649"
+    ],
+    "email": "info@test-97.edu.np",
+    "website": "www.test-97.edu.np",
+    "map": {
+      "lat": 28.726,
+      "lng": 81.63
+    }
+  },
+  "stats": {
+    "students": 2387,
+    "faculty": 60,
+    "rating": 3.9,
+    "programs_count": 5
+  },
+  "media": {
+    "logo": "https://dummyimage.com/360x360/d8e8ff/163152.png?text=EJ",
+    "cover": "https://dummyimage.com/1600x980/d8e8ff/163152.jpg?text=Everest%20Jumla%20Scholars%20School",
+    "gallery": [
+      "https://dummyimage.com/1400x920/d8e8ff/163152.jpg?text=Everest%20Jumla%20Scholars%20School%20Main%20Block",
+      "https://dummyimage.com/1400x920/ffe4d2/4b2e1f.jpg?text=Everest%20Jumla%20Scholars%20School%20Learning%20Space",
+      "https://dummyimage.com/1400x920/f3f6fb/163152.jpg?text=Everest%20Jumla%20Scholars%20School%20Student%20Life",
+      "https://drive.google.com/drive/folders/gallery-test-97-folder"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+    ]
+  },
+  "facilities": [
+    "Library",
+    "Science Lab",
+    "Computer Lab",
+    "Playground",
+    "Transport",
+    "Student Counseling",
+    "Scholarship Desk"
+  ],
+  "social": {
+    "facebook": "facebook.com/test-97",
+    "instagram": "instagram.com/test-97",
+    "youtube": "youtube.com/@test-97",
+    "twitter": "x.com/test-97"
+  },
+  "programs": [
+    "Montessori Program",
+    "Secondary Curriculum",
+    "+2 Science",
+    "+2 Management",
+    "ECA Leadership Track"
+  ]
+}
